@@ -18,6 +18,11 @@ const Nav = () => {
     };
   }, []);
 
+  const NavLink = ({title}) => (
+    <LinkScroll>
+    </LinkScroll>
+  )
+
   return (
     <header
       className={clsx(
