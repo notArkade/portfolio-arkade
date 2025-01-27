@@ -8,7 +8,7 @@ import Contact from './sections/Contact'
 function App() {
 
   return (
-    <main className='overflow-hidden'>
+    <main className='overflow-hidden hide-scrollbar'>
       <Header />
       <About />
       <Projects />

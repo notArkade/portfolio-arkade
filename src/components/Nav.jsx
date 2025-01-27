@@ -25,9 +25,9 @@ const Nav = () => {
       to={title}
       offset={-100}
       smooth
-      className="text-white cursor-pointer text-2xl tracking-[-0.07em]"
+      className="text-white cursor-pointer text-2xl tracking-[-0.07em] transition-colors duration-500 hover:text-[#FF6500]"
     >
-      {title}
+      // {title}
     </LinkScroll>
   );
 
@@ -40,10 +40,10 @@ const Nav = () => {
     >
       <div className="container">
         <li className="nav-li">
-          <NavLink title="// home" />
-          <NavLink title="// projects" />
-          <NavLink title="// about" />
-          <NavLink title="// contact" />
+          <NavLink title="home" />
+          <NavLink title="projects" />
+          <NavLink title="about" />
+          <NavLink title="contact" />
         </li>
       </div>
     </header>
