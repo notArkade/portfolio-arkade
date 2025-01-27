@@ -14,10 +14,6 @@
   }
 }
 
-@utility text-gradient {
-  @apply bg-linear-to-r from-[red] to-[blue] bg-clip-text text-transparent;
-}
-
 @utility hide-scrollbar {
   -ms-overflow-style: none;
   scrollbar-width: none;
