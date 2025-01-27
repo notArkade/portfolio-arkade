@@ -8,10 +8,14 @@
     background: #0B192C;
     font-family: "Roboto Mono", sans-serif;
   }
+
+  h1 {
+    @apply mx-auto text-center
+  }
 }
 
 @utility text-gradient {
-  @apply bg-linear-to-r from-[#000] to-[#FF6500] bg-clip-text text-transparent;
+  @apply bg-linear-to-r from-[red] to-[blue] bg-clip-text text-transparent;
 }
 
 @utility hide-scrollbar {
