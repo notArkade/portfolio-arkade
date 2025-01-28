@@ -2,6 +2,11 @@
 
 @import "tailwindcss";
 
+/* colors
+  FF6500 - orange,
+  1E3E62 - bluish grey,
+  0B192C - dark bluish grey,
+*/
 
 @layer base {
   body {
