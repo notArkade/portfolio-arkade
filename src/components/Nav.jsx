@@ -9,7 +9,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setHasScrolled(window.scrollY > 32);
+      setHasScrolled(window.scrollY > 30);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -25,7 +25,7 @@ const Nav = () => {
       to={title}
       offset={-100}
       smooth
-      className="text-white cursor-pointer text-2xl tracking-[-0.07em] transition-colors duration-500 hover:text-[#FF6500]"
+      className="text-white cursor-pointer text-2xl tracking-[-0.07em] transition-colors duration-500 hover:text-[#ecfb77]"
     >
       // {title}
     </LinkScroll>
@@ -34,7 +34,7 @@ const Nav = () => {
   return (
     <header
       className={clsx(
-        "top-0 pt-10 pb-5 left-0 z-50 w-full transition-all duration-500",
+        "fixed top-0 pt-5 pb-5 left-0 z-50 w-full transition-all duration-500",
         hasScrolled && "py-2 bg-black/10 backdrop-blur-[8px]"
       )}
     >
