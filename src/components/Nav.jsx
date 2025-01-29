@@ -38,9 +38,10 @@ const Nav = () => {
         hasScrolled && "py-2 bg-black/10 backdrop-blur-[8px]"
       )}
     >
-      <div className="container">
+      <div className="">
         <li className="nav-li">
           <NavLink title="home" />
+          <NavLink title="skills" />
           <NavLink title="projects" />
           <NavLink title="about" />
           <NavLink title="contact" />

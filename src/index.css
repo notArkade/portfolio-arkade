@@ -15,7 +15,8 @@
 @layer base {
   body {
     /* background: #292929; */
-    background: #09051e;
+    /* background: #09051e; */
+    background: #000;
     font-family: "Roboto Mono", sans-serif;
     color: white;
   }
@@ -23,6 +24,10 @@
 }
 
 @layer utilities {
+
+  .bod {
+    @apply border-2 border-amber-400;
+  }
   .retro {
     font-family: "Pixelify Sans", serif;
   }
@@ -32,14 +37,14 @@
   }
 
   .container {
-    @apply mx-auto max-w-[1260px] px-16 border-amber-400 border;
+    @apply mx-auto max-w-[1260px] px-16;
   }
   .container-home {
-    @apply min-w-screen px-20 border-amber-400 border;
+    @apply min-w-screen px-20;
   }
 
   .nav-li {
-    @apply relative flex flex-1 items-center justify-between mx-auto max-w-[600px];
+    @apply relative flex flex-1 items-center justify-between mx-auto px-[35rem] min-w-screen;
   }
 }
 
