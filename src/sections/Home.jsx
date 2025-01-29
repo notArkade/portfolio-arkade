@@ -1,4 +1,3 @@
-import React, { useEffect, useRef } from "react";
 import { Element } from "react-scroll";
 import useHoverTextEffect from "../text-animation";
 

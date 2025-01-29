@@ -10,6 +10,13 @@
 #25363e	(37,54,62)
 #56d0ae	(86,208,174)
 #ecfb77	(236,251,119)
+
+neon blues:
+#009fff	(0,159,255)
+#00c5ff	(0,197,255)
+#00dfff	(0,223,255)
+#00ffdf	(0,255,223)
+#7dfffc	(125,255,252)
 */
 
 @layer base {
@@ -28,6 +35,17 @@
   .bod {
     @apply border-2 border-amber-400;
   }
+
+  .glow-text {
+    @apply text-white transition-all duration-300;
+  }
+
+  .glow-text:hover {
+    text-shadow: 0 0 10px #00ffdf,
+                 0 0 20px #ffffff99,
+                 0 0 30px #ffffff66;
+  }
+
   .retro {
     font-family: "Pixelify Sans", serif;
   }
