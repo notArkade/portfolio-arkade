@@ -7,7 +7,7 @@ const Header = () => {
     <section className="overflow-hidden">
     <header>
       <Nav />
-      <h1 className="static text-white m-5 text-3xl">Arkade</h1>
+      <h1 className="absolute text-white m-5 text-3xl">Arkade</h1>
     </header>
     </section>
   );
