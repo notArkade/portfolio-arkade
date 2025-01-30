@@ -17,6 +17,8 @@ neon blues:
 #00dfff	(0,223,255)
 #00ffdf	(0,255,223)
 #7dfffc	(125,255,252)
+
+ [clip-path:polygon(0%_0%,100%_0%,100%_80%,90%_100%,0%_100%)]
 */
 
 @layer base {
@@ -27,9 +29,13 @@ neon blues:
     font-family: "Roboto Mono", sans-serif;
     color: white;
   }
-  /* ::-webkit-scrollbar {
+  ::selection {
+    background-color: #00ffdf; /* Change the background color */
+    color: black; /* Change the text color */
+  }
+  ::-webkit-scrollbar {
     display: none;
-} */
+}
 .scroll-hide::-webkit-scrollbar {
   display: none;
 }
