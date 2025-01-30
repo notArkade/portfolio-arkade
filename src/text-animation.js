@@ -31,7 +31,7 @@ const useHoverTextEffect = () => {
     };
   }, []);
 
-  return ref; // Return the ref to attach to any element
+  return ref;
 };
 
 export default useHoverTextEffect;

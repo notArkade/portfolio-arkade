@@ -1,5 +1,6 @@
 import { Element } from "react-scroll";
 import useHoverTextEffect from "../text-animation";
+import Arrow from "../components/Arrow";
 
 const Home = () => {
   const headingRef = useHoverTextEffect();
@@ -30,6 +31,7 @@ const Home = () => {
           </div>
         </div>
       </Element>
+      <Arrow />
     </section>
   );
 };

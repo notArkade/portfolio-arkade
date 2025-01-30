@@ -27,6 +27,9 @@ neon blues:
     font-family: "Roboto Mono", sans-serif;
     color: white;
   }
+  /* ::-webkit-scrollbar {
+    display: none;
+} */
 
 }
 
@@ -74,6 +77,7 @@ neon blues:
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
   }
+
 }
 
 /* @utility hide-scrollbar {
