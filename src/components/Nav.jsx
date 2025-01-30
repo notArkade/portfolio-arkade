@@ -35,7 +35,7 @@ const Nav = () => {
     <header
       className={clsx(
         "fixed top-0 pt-5 pb-5 left-0 z-50 w-full transition-all duration-500",
-        hasScrolled && "py-2 bg-black/10 backdrop-blur-[8px]"
+        hasScrolled && "py-2 bg-black/50 backdrop-blur-[8px]"
       )}
     >
       <div className="">

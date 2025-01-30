@@ -5,11 +5,12 @@ import Projects from './sections/Projects'
 import About from './sections/About'
 import Contact from './sections/Contact'
 import Home from './sections/Home'
+import Status from './sections/Status'
 
 function App() {
 
   return (
-    <main className='overflow-hidden hide-scrollbar'>
+    <main className='scroll-hide'>
       <Header />
       <Home />
       <About />
