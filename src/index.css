@@ -23,9 +23,10 @@ neon blues:
 
 @layer base {
   body {
+    background: black;
     /* background: #292929; */
     /* background: #09051e; */
-    background: #000;
+    /* background: linear-gradient(#000, #24262f); */
     font-family: "Roboto Mono", sans-serif;
     color: white;
   }
@@ -45,7 +46,6 @@ neon blues:
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
-
 
 }
 
@@ -74,7 +74,7 @@ neon blues:
   }
 
   .container {
-    @apply mx-auto min-w-[1210px];
+    @apply mx-auto border-amber-400;
   }
   .container-home {
     @apply h-[40vh] min-w-screen px-20 my-30;

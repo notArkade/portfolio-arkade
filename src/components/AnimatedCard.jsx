@@ -38,8 +38,8 @@ const AnimatedCard = () => {
           className="overflow-hidden flex flex-col border-[#00ffdf] border-b-0 border-t-0 border-r-0 border-3 p-6 shadow-lg"
         >
           <div>
-            <h2 className="text-4xl font-semibold mb-5 tracking-[0.05em]">Hello there,</h2>
-            <p className="text-2xl text-gray-500 my-2 mb-5 w-full">
+            <h2 className="text-4xl font-semibold text-gray-100 mb-5 tracking-[0.05em]">Hello there,</h2>
+            <p className="text-2xl text-gray-600 my-2 mb-5 w-full">
               I am Arkadip, a college student pursuing a degree in Computer
               Engineering, currently learning{" "}
               <strong className="tracking-[0.08em]">React</strong> and expanding
@@ -52,7 +52,7 @@ const AnimatedCard = () => {
             </p>
             <p className="ml-auto flex flex-row-reverse">
               <a
-                className="text-2xl cursor-pointer uppercase hover:text-black hover:font-medium hover:bg-[#00ffdf] p-2"
+                className="text-2xl cursor-pointer uppercase hover:text-black hover:font-medium transition-all duration-300 hover:bg-cyan-300 p-2 hover:px-4 [clip-path:polygon(0%_0%,100%_0%,100%_80%,90%_100%,0%_100%)]"
               >
                 check stats {">>"}
               </a>

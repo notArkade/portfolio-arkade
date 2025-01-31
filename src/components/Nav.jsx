@@ -23,7 +23,7 @@ const Nav = () => {
       to={title}
       offset={-100}
       smooth
-      className="cursor-pointer text-xl tracking-[-0.07em] glow-text"
+      className="cursor-pointer p-2 text-xl tracking-[-0.07em] hover:bg-cyan-300 transition-all duration-300 hover:font-medium hover:text-black hover:px-4 [clip-path:polygon(0%_0%,100%_0%,100%_80%,90%_100%,0%_100%)]"
     >
       // {title}
     </LinkScroll>

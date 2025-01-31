@@ -5,7 +5,7 @@ import { Element } from "react-scroll";
 const Status = () => {
   return (
     <section>
-      <Element name="status">
+      <Element name="about">
         <AnimatedCard />
       </Element>
     </section>
