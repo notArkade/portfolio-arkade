@@ -1,12 +1,14 @@
 import { Element } from "react-scroll";
 import useHoverTextEffect from "../text-animation";
 import Arrow from "../components/Arrow";
+import { techstack } from "../constants";
+import { useState } from "react";
 
 const Home = () => {
   const headingRef = useHoverTextEffect();
-  const slots = Array.from({ length: 20 }, (_, i) => i + 1);
+  const [hoveredText, setHoveredText] = useState(null);
 
-  return (
+  return ( 
     <section>
       <Element name="home">
         <div className="my-[4.5rem] flex items-center justify-center">
@@ -49,7 +51,6 @@ const Home = () => {
             </p>
             <p>
               <strong>HP:</strong> 93,300{" "}
-              
             </p>
             <p>
               <strong>Fatigue:</strong> 0
@@ -84,13 +85,17 @@ const Home = () => {
 
           <div className="flex justify-center items-center">
             <div className="grid grid-cols-5 gap-3 p-4 bg-gray-800 shadow-lg rounded-lg border-2 border-gray-600">
-              
-              {slots.map((slot) => (
+              {techstack.map(({ id, icon, tech }) => (
                 <div
-                  key={slot}
+                  key={id}
                   className="w-24 h-24 flex justify-center items-center bg-gray-700 border-2 border-gray-500 text-white font-bold text-lg rounded-md shadow-inner hover:bg-gray-600 transition-all duration-400 hover:border-cyan-300 cursor-pointer"
+                  onMouseEnter={() => setHoveredText(tech)}
+                  onMouseLeave={() =>setHoveredText(null)}
                 >
-                  {slot}
+                  <img src={icon} alt={tech} className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300"/>
+                  {hoveredText === tech && (
+                    <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-sm rounded shadow-lg">{tech}</span>
+                  )}
                 </div>
               ))}
             </div>
