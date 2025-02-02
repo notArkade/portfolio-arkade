@@ -54,7 +54,7 @@ const AnimatedCard = () => {
               refine my expertise and contribute to impactful projects.
             </p>
             <div className="ml-auto flex flex-row-reverse">
-              <Button>Check Status {">>"}</Button>
+              <Button>Check Status</Button>
             </div>
           </div>
         </motion.div>
