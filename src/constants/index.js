@@ -100,8 +100,7 @@ export const techstack = [
         id: '8',
         icon: './tech/locked2.png',
         tech: 'locked',
-    },
-    
+    }
 ];
 
 export const socials = [

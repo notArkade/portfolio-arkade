@@ -3,14 +3,15 @@ import useHoverTextEffect from "../text-animation";
 import Arrow from "../components/Arrow";
 import { techstack } from "../constants";
 import { useState } from "react";
+import { FaHtml5 } from "react-icons/fa";
 
 const Home = () => {
   const headingRef = useHoverTextEffect();
-  const [hoveredText, setHoveredText] = useState(null);
 
-  return ( 
+  return (
     <section>
       <Element name="home">
+      {/* <FaHtml5 size={50} /> */}
         <div className="my-[4.5rem] flex items-center justify-center">
           <div className="container-home">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
@@ -89,13 +90,12 @@ const Home = () => {
                 <div
                   key={id}
                   className="w-24 h-24 flex justify-center items-center bg-gray-700 border-2 border-gray-500 text-white font-bold text-lg rounded-md shadow-inner hover:bg-gray-600 transition-all duration-400 hover:border-cyan-300 cursor-pointer"
-                  onMouseEnter={() => setHoveredText(tech)}
-                  onMouseLeave={() =>setHoveredText(null)}
                 >
-                  <img src={icon} alt={tech} className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300"/>
-                  {hoveredText === tech && (
-                    <span className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-2 py-1 bg-gray-800 text-white text-sm rounded shadow-lg">{tech}</span>
-                  )}
+                  <img
+                    src={icon}
+                    alt={tech}
+                    className="w-12 h-12 hover:w-14 hover:h-14 transition-all duration-300"
+                  />
                 </div>
               ))}
             </div>
