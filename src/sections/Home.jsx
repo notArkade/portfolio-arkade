@@ -12,15 +12,15 @@ const Home = () => {
     <section>
       <Element name="home">
         <div className="my-[4.5rem] flex items-center justify-center">
-          <div className="container-home">
+          <div className="container-home text-center">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
             <div className="flex items-center justify-center">
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
               <h1
-                // ref={headingRef}
-                className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.01em] cursor-pointer"
+                ref={headingRef}
+                className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-pointer"
               >
                 Arkade
               </h1>

@@ -2,15 +2,15 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="">
-      <div className="container">
+    <footer>
+      
         <div>
-          <ul className="flex flex-1 items-center justify-between mx-auto ">
+          <ul className="flex flex-1 items-center px-20 justify-between mx-auto py-20 border-3 border-gray-900">
             <li>Arkadip Das</li>
             <li>All rights reserved.</li>
             <li>Used Resources</li>
           </ul>
-        </div>
+  
       </div>
     </footer>
   );
