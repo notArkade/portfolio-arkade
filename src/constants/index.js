@@ -1,3 +1,4 @@
+import { title } from "framer-motion/client";
 import {
   FaPython,
   FaHtml5,
@@ -35,8 +36,16 @@ export const techstack = [
 export const socials = [
   {
     id: "0",
-    titl: "",
+    site: "",
     logo: "",
     url: "#",
   },
+];
+
+export const projects = [
+  {
+    id: "0",
+    title: "",
+    description: "",
+  }
 ];

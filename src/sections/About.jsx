@@ -1,12 +1,19 @@
-import React from 'react'
-import Button from '../components/Button'
+import React from "react";
+import Button from "../components/Button";
+import { Element } from "react-scroll";
+import AnimatedCard from "../components/AnimatedCard";
 
 const About = () => {
   return (
-    <div className="flex items-center justify-center my-10">
-      <Button href="#">View Resume</Button>
-    </div>
-  )
-}
+    <section>
+      <Element name="about">
+        <div className="items-center justify-center">
+          <AnimatedCard />
+          <Button href="#">View Resume</Button>
+        </div>
+      </Element>
+    </section>
+  );
+};
 
-export default About
+export default About;
