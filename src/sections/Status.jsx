@@ -9,8 +9,8 @@ const Status = () => {
   return (
     <section>
       <Element name="skills">
-      <div class="flex justify-center items-center p-30 container">
-        <div class="grid grid-cols-2 justify-between border-2 border-gray-600 p-10 text-2xl rounded-lg shadow-lg text-cyan-300 uppercase space-mono leading-9">
+      <div class="flex justify-center items-center p-30 container ">
+        <div class="grid grid-cols-2 justify-between border-2 border-gray-600 p-10 text-2xl rounded-lg shadow-lg text-cyan-300 uppercase space-mono leading-9 backdrop-blur-[8px]">
           <div>
             <h2 class="text-2xl font-bold border-b-2 border-gray-600 pb-2">
               Status

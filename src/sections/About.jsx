@@ -9,7 +9,6 @@ const About = () => {
       <Element name="about">
         <div className="items-center justify-center">
           <AnimatedCard />
-          <Button href="#">View Resume</Button>
         </div>
       </Element>
     </section>
