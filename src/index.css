@@ -23,6 +23,9 @@ neon blues:
 
 @layer base {
   body {
+    background-image: url(./assets/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background: black;
     /* background: #292929; */
     /* background: #09051e; */
