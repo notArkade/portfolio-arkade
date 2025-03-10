@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import clsx from "clsx";
 import { Link as LinkScroll } from "react-scroll";
+import Button_3 from "./Button_3";
 
 const Nav = () => {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -23,9 +24,8 @@ const Nav = () => {
       to={title}
       offset={-100}
       smooth
-      className="cursor-pointer p-2 text-xl tracking-[-0.07em] hover:bg-cyan-300 transition-all duration-300 hover:font-medium hover:text-black hover:px-4 [clip-path:polygon(0%_0%,100%_0%,100%_80%,90%_100%,0%_100%)]"
     >
-      // {title}
+      // <Button_3>{title}</Button_3>
     </LinkScroll>
   );
 
