@@ -46,7 +46,8 @@ export const projects = [
   {
     id: "0",
     title: "Festment",
-    description: "blah blah blah",
+    description:
+      "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
   },
   {
     id: "1",

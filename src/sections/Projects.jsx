@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <section>
       <Element name="projects">
-        <div className="container my-20 p-10 border-3 border-gray-600 rounded-2xl bg-gradient-to-br from-[#000000] to-[#000333]">
+        <div className="container my-20 p-10 rounded-2xl bg-gradient-to-br from-[#000333] via-[#000000] to-[#000333]">
           <h1 className="text-4xl font-bold space-mono mb-5">Projects</h1>
           <div className="grid grid-cols-2 gap-4">
             {projects.map(({ id, title, description}) => (
