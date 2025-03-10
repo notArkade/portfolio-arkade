@@ -45,7 +45,22 @@ export const socials = [
 export const projects = [
   {
     id: "0",
-    title: "",
-    description: "",
-  }
+    title: "Festment",
+    description: "blah blah blah",
+  },
+  {
+    id: "1",
+    title: "The Movie Project",
+    description: "blah blah blah",
+  },
+  {
+    id: "2",
+    title: "Weatherly",
+    description: "blah blah blah",
+  },
+  {
+    id: "3",
+    title: "The Nike Website",
+    description: "blah blah blah",
+  },
 ];
