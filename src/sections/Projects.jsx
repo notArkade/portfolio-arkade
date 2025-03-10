@@ -2,6 +2,7 @@ import React from "react";
 import { Element } from "react-scroll";
 import Button_2 from "../components/Button_2";
 import { projects } from "../constants";
+import { Tooltip } from "react-tooltip";
 
 const Projects = () => {
   return (
