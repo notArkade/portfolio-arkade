@@ -52,16 +52,16 @@ export const projects = [
   {
     id: "1",
     title: "The Movie Project",
-    description: "blah blah blah",
+    description: "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending effortlessly.",
   },
   {
     id: "2",
     title: "Weatherly",
-    description: "blah blah blah",
+    description: "A responsive weather app I built with JavaScript, HTML, and CSS. It provides real-time weather updates, including temperature, humidity, and wind speed, based on user's city search.",
   },
   {
     id: "3",
     title: "The Nike Website",
-    description: "blah blah blah",
+    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
   },
 ];
