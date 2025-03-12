@@ -19,11 +19,12 @@ const Nav = () => {
     };
   }, []);
 
-  const NavLink = ({ title }) => (
+  const NavLink = ({ title, className }) => (
     <LinkScroll
       to={title}
       offset={-100}
       smooth
+      className={`cursor-pointer transition-all duration-300 ${className}`}
     >
       // <Button_3>{title}</Button_3>
     </LinkScroll>
@@ -37,12 +38,12 @@ const Nav = () => {
       )}
     >
       <div className="w-full">
-        <ul className="nav-li">
-          <NavLink title="home" />
-          <NavLink title="skills" />
-          <NavLink title="projects" />
-          <NavLink title="about" />
-          <NavLink title="contact" />
+        <ul className="nav-li group">
+        <NavLink title="home" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="skills" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="projects" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="about" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="contact" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         </ul>
       </div>  
     </header>

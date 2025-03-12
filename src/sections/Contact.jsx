@@ -1,10 +1,13 @@
-import React from 'react'
+import React from 'react';
+import { Element } from 'react-scroll';
 
 const Contact = () => {
   return (
-    <div>
-      
-    </div>
+    <section>
+      <Element name="contact">
+        
+      </Element>
+    </section>
   )
 }
 
