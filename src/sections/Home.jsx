@@ -19,7 +19,7 @@ const Home = () => {
               </span> */}
               <h1
                 ref={headingRef}
-                className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-pointer"
+                className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-none"
               >
                 Arkade
               </h1>

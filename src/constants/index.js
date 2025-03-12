@@ -54,7 +54,7 @@ export const projects = [
     id: "1",
     title: "The Movie Project",
     image: "",
-    description: "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending effortlessly.",
+    description: "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending movies effortlessly.",
   },
   {
     id: "2",

@@ -9,7 +9,7 @@ const Status = () => {
   return (
     <section>
       <Element name="skills">
-      <div class="flex justify-center items-center p-30">
+      <div class="container flex justify-center items-center p-30">
         <div class="grid grid-cols-2 justify-between bg-gradient-to-br from-[#000000] to-[#000333] border-2 border-gray-600 p-10 text-2xl rounded-lg shadow-lg text-cyan-300 uppercase space-mono leading-9 
         backdrop-blur-[8px]">
           <div>
