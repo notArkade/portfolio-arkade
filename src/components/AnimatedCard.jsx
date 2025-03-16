@@ -36,7 +36,7 @@ const AnimatedCard = () => {
               : { height: 0, opacity: 0 }
           }
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="overflow-hidden flex flex-col border-cyan-300 border-3 rounded-2xl p-6 shadow-lg"
+          className=""
         >
           <div>
             <h2 className="text-4xl font-semibold text-gray-100 mb-5 tracking-[0.05em]">

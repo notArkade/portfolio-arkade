@@ -16,7 +16,7 @@ const Projects = () => {
                 <h2 className="text-xl md:text-2xl font-semibold uppercase text-gray-400 mb-3 space-mono">
                   {title}
                 </h2>
-                <p className="text-base md:text-lg text-gray-500 mb-4 flex-grow space-mono">
+                <p className="text-base md:text-lg text-gray-500 mb-4 flex-grow space-mono leading-snug">
                   {description}
                 </p>
                 <div className="mt-auto flex justify-end">

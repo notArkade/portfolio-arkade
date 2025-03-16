@@ -32,7 +32,44 @@ neon blues:
     /* background: linear-gradient(#000, #24262f); */
     font-family: "Roboto Mono", sans-serif;
     color: white;
+    cursor: none;
   }
+
+  .custom-cursor {
+    width: 5px;
+    height: 5px;
+    background-color: #4DD0E1;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.05s ease-out;
+    z-index: 1;
+  }
+  
+  .cursor-trail {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #4DD0E1;
+    border-radius: 50%;
+    position: fixed;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.2s ease-out;
+    z-index: 1;
+  }
+
+  .cursor-dot,
+  .cursor-outline {
+    position: fixed;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+  }
+
   ::selection {
     background-color: #00ffdf; /* Change the background color */
     color: black; /* Change the text color */

@@ -6,10 +6,12 @@ import About from "./sections/About";
 import Contact from "./sections/Contact";
 import Home from "./sections/Home";
 import Status from "./sections/Status";
+import CustomCursor from "./sections/CustomCursor";
 
 function App() {
   return (
     <main className="scroll-hide">
+      <CustomCursor />
       <Header />
       <Home />
       <Status />
