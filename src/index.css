@@ -32,7 +32,7 @@ neon blues:
     /* background: linear-gradient(#000, #24262f); */
     font-family: "Roboto Mono", sans-serif;
     color: white;
-    /* cursor: none; */
+    cursor: none;
   }
 
   .custom-cursor {
