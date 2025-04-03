@@ -26,7 +26,7 @@ const AnimatedCard = () => {
   }, [inView]);
 
   return (
-    <div className="container min-h-screen p-[10vh]">
+    <div className="container min-h-screen p-[10vh] text-center w-7xl">
       <div ref={ref} className="w-full flex justify-center">
         <motion.div
           initial={{ height: 0, opacity: 0 }}

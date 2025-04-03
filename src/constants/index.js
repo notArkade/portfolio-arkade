@@ -79,4 +79,11 @@ export const projects = [
     description: "A Machine Learning-Based NIDS for Cybersecurity Threat Detection.",
     link: "",    
   },
+  {
+    id: "5",
+    title: "Bloomify",
+    image: "",
+    description: "Bloomify is your go-to platform for effortless and delightful flower buying and selling. Whether you want to brighten someone's day or expand your floral business, we make it simple and seamless.",
+    link: "",    
+  },
 ];

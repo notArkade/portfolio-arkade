@@ -15,10 +15,10 @@ const Projects = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             {projects.map(({ id, title, description, link }) => (
               <div className="relative border-2 border-gray-900 bg-gray-950 rounded-2xl p-5 shadow-lg min-h-[250px] md:min-h-[300px] lg:min-h-[300px] flex flex-col justify-between">
-                <h2 className="text-xl md:text-2xl font-semibold uppercase text-gray-400 mb-3 space-mono">
+                <h2 className="text-xl md:text-2xl font-semibold uppercase text-gray-300 mb-3">
                   {title}
                 </h2>
-                <p className="text-base md:text-lg text-gray-500 mb-4 flex-grow space-mono">
+                <p className="text-base md:text-lg text-gray-400 mb-4 flex-grow">
                   {description}
                 </p>
                 <div className="mt-auto flex justify-end">
@@ -27,7 +27,6 @@ const Projects = () => {
                       href={link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-gray-200 hover:text-gray-300 transition duration-300"
                     >
                       View Project
                     </a>
