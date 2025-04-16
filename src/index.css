@@ -64,6 +64,7 @@ neon blues:
     width: 30px;
     height: 30px;
     background-color: #4dd0e1;
+    opacity: 50%;
   }
 
   /* Hide the trailing cursor when hovering */

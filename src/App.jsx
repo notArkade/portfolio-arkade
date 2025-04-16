@@ -14,7 +14,7 @@ function App() {
       <CustomCursor />
       <Header />
       <Home />
-      <Status />
+      {/* <Status /> */}
       <About />
       <Projects />
       <Contact />
