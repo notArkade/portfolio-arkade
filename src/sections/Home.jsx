@@ -17,11 +17,8 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1
-                ref={headingRef}
-                className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-none"
-              >
-                Arkade
+              <h1 className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-default space-mono">
+                A<span ref={headingRef}>rkade</span>
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase">
@@ -31,8 +28,6 @@ const Home = () => {
         </div>
       </Element>
       {/* <Arrow /> */}
-
-      
     </section>
   );
 };

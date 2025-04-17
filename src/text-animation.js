@@ -27,7 +27,7 @@ const useHoverTextEffect = () => {
         if (iterations >= originalText.length) clearInterval(interval);
 
         iterations += 1 / 5;
-      }, 50);
+      }, 100);
     };
   }, []);
 

@@ -12,28 +12,52 @@ const Projects = () => {
           <h1 className="text-3xl md:text-4xl font-bold text-gray-200 space-mono mb-5 max-sm:text-center">
             Projects
           </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-            {projects.map(({ id, title, description, link }) => (
-              <div className="relative border-2 border-gray-900 bg-gray-950 rounded-2xl p-5 shadow-lg min-h-[250px] md:min-h-[300px] lg:min-h-[300px] flex flex-col justify-between">
-                <h2 className="text-xl md:text-2xl font-semibold uppercase text-gray-300 mb-3">
-                  {title}
-                </h2>
-                <p className="text-base md:text-lg text-gray-400 mb-4 flex-grow">
-                  {description}
-                </p>
-                <div className="mt-auto flex justify-end">
-                  <Button_2>
-                    <a
-                      href={link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Project
-                    </a>
-                  </Button_2>
-                </div>
-              </div>
-            ))}
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {projects.map((project, index) => {
+              // First project spans 2 columns in the first row
+              const isLarge1 = index === 0;
+              // Fourth project spans 2 columns in the second row
+              const isLarge2 = index === 3;
+
+              return (
+                <a
+                  key={project.id}
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`relative bg-gray-900 overflow-hidden shadow-lg group transition-transform transform ${
+                    isLarge1 || isLarge2 ? "md:col-span-2" : "md:col-span-1"
+                  }`}
+                >
+                  <div className="flex items-center justify-center overflow-hidden">
+                    {project.image && (
+                      <img
+                        src={project.image}
+                        alt={project.title}
+                        className="w-full object-contain transition-all duration-300 group-hover:scale-105"
+                      />
+                    )}
+                  </div>
+
+                  <div className="relative p-6 bg-gray-950">
+                    <h2 className="text-xl font-semibold text-gray-200 mb-2">
+                      {project.title}
+                    </h2>
+                    <div className="flex justify-between items-center">
+                      <p className="text-gray-500 text-sm mt-2 group-hover:-translate-y-5 group-hover:opacity-0 transition-all duration-300">
+                        {project.techstack}
+                      </p>
+                      <div className="absolute flex items-center text-sm text-gray-400 mt-4 w-full opacity-0 transition-all duration-300 group-hover:opacity-100 translate-y-full group-hover:translate-y-0">
+                        <p className="mr-2 text-sm uppercase text-red-400 space-mono">
+                          {"//"} view project{" "}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              );
+            })}
           </div>
         </div>
         <div className="flex items-center justify-center mt-10">
