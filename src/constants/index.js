@@ -64,7 +64,7 @@ export const projects = [
     techstack: "React.js, Tailwind CSS",
     image: fusion,
     description: "AI-powered content creation studio for social media creators. Fusion was created to empower content creators with AI-driven insights and tools. It helps creators to generate content ideas, optimize their posts, and analyze their performance.",
-    link: "https://neutron-oregano.vercel.app/",    
+    link: "",    
   },
   {
     id: "1",
