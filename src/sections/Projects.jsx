@@ -9,7 +9,7 @@ const Projects = () => {
     <section>
       <Element name="projects">
         <div className="container my-20 p-6 md:p-10 rounded-2xl bg-gradient-to-br from-[#000333] via-[#000000] to-[#000333]">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-200 space-mono mb-5 max-sm:text-center">
+          <h1 className="text-3xl md:text-4xl font-bold text-gray-200 space-mono mb-10 max-sm:text-center">
             Projects
           </h1>
 
@@ -26,7 +26,7 @@ const Projects = () => {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className={`relative bg-gray-900 overflow-hidden shadow-lg group transition-transform transform ${
+                  className={`relative bg-transparent border border-black hover:border-gray-800 duration-300 rounded-xl overflow-hidden shadow-lg group transition-all transform ${
                     isLarge1 || isLarge2 ? "md:col-span-2" : "md:col-span-1"
                   }`}
                 >

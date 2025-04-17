@@ -65,10 +65,10 @@ const Eye = () => {
     <div className="fixed left-6 bottom-0 z-50">
       <div className="relative w-32 h-[6.5rem]">
         {/* Robot body (metallic) */}
-        <div className="absolute w-32 h-32 bg-gradient-to-r from-gray-500 via-black to-black rounded-t-full  border border-gray-500">
+        <div className="absolute w-32 h-32 bg-gradient-to-r from-gray-500 via-black to-black rounded-t-full  border border-gray-800">
           {/* Robot head (upper part) */}
           <div
-            className="absolute w-full h-2 mt-[4.5rem] bg-black  border border-gray-500"></div>
+            className="absolute w-full h-2 mt-[4.5rem] bg-black  border border-gray-800"></div>
 
           {/* Eyes container */}
           <div className="absolute top-2 w-full flex justify-center space-x-4">
