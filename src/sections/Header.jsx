@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <section className="overflow-hidden">
     <header>
-      <h1 className="absolute text-white m-5 mt-7 text-3xl space-mono">Arkade</h1>
+      {/* <h1 className="absolute text-white m-5 mt-7 text-3xl space-mono">Arkade</h1> */}
       <Nav />
     </header>
     </section>

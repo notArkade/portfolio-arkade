@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import Button_2 from "../components/Button_2";
 import { projects } from "../constants";
 import { Tooltip } from "react-tooltip";
+import { motion } from "framer-motion";
 
 const Projects = () => {
   return (
@@ -21,7 +22,19 @@ const Projects = () => {
               const isLarge2 = index === 3;
 
               return (
-                <a
+                <motion.a
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  whileInView={{
+                    opacity: 1,
+                    scale: 1,
+                    transition: {
+                      duration: 0.05,
+                    },
+                  }}
+                  viewport={{ 
+                    once: true, 
+                  //   amount: 0.5 
+                  }}
                   key={project.id}
                   href={project.link}
                   target="_blank"
@@ -55,7 +68,7 @@ const Projects = () => {
                       </div>
                     </div>
                   </div>
-                </a>
+                </motion.a>
               );
             })}
           </div>
