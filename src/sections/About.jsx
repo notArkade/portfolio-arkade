@@ -9,7 +9,7 @@ const About = () => {
     <section>
       <Element name="about">
         <div className="flex flex-col items-center justify-center text-center">
-          <Eye />
+          {/* <Eye /> */}
 
           <h1>Learning Web Dev, AI ML enthusiast</h1>
           {/* <AnimatedCard /> */}
