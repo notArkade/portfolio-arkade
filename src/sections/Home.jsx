@@ -23,7 +23,7 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-default space-mono z-2">
+              <h1 className="font-bold uppercase text-gray-300 text-center text-[260px] mb-5 tracking-[0.08em] cursor-default space-mono z-2">
                 Arkade
               </h1>
             </div>

@@ -64,7 +64,7 @@ export const projects = [
     techstack: "React.js, Tailwind CSS",
     image: fusion,
     description: "AI-powered content creation studio for social media creators. Fusion was created to empower content creators with AI-driven insights and tools. It helps creators to generate content ideas, optimize their posts, and analyze their performance.",
-    link: "",    
+    link: "https://neutron-oregano.vercel.app/",    
   },
   {
     id: "1",
@@ -77,7 +77,7 @@ export const projects = [
   {
     id: "4",
     title: "Sentinel",
-    techstack: "React.js, Tailwind CSS",
+    techstack: "React.js, Tailwind CSS, Python",
     image: sentinel,
     description: "A Machine Learning-Based NIDS for Cybersecurity Threat Detection.",
     link: "",    
@@ -85,7 +85,7 @@ export const projects = [
   {
     id: "0",
     title: "Festment",
-    techstack: "React.js, Tailwind CSS",
+    techstack: "HTML, Tailwind CSS",
     image: festment,
     description:
     "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
@@ -105,6 +105,6 @@ export const projects = [
     techstack: "React.js, Tailwind CSS",
     image: nike,
     description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "",    
+    link: "https://la-nike-sitio-web.vercel.app/",    
   },
 ];
