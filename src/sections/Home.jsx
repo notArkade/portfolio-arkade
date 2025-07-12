@@ -24,7 +24,7 @@ const Home = () => {
                 i'm
               </span> */}
               <h1 className="font-bold uppercase text-center text-[260px] mb-5 tracking-[0.08em] cursor-default space-mono z-2">
-                A<span ref={headingRef}>rkade</span>
+                Arkade
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase">

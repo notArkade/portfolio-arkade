@@ -73,7 +73,7 @@ const Projects = () => {
             })}
           </div>
         </div>
-        <div className="flex items-center justify-center mt-10">
+        <div className="flex items-center justify-center my-10">
           <Button_2 href="#">View Resume</Button_2>
         </div>
       </Element>
