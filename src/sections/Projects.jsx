@@ -74,7 +74,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-center justify-center my-10">
-          <Button_2 href="#">View Resume</Button_2>
+          <Button_2 href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing">View Resume</Button_2>
         </div>
       </Element>
     </section>
