@@ -58,14 +58,14 @@ export const projects = [
     description: "Bloomify is your go-to platform for effortless and delightful flower buying and selling. Whether you want to brighten someone's day or expand your floral business, we make it simple and seamless.",
     link: "",    
   },
-  {
-    id: "6",
-    title: "Fusion",
-    techstack: "React.js, Tailwind CSS",
-    image: fusion,
-    description: "AI-powered content creation studio for social media creators. Fusion was created to empower content creators with AI-driven insights and tools. It helps creators to generate content ideas, optimize their posts, and analyze their performance.",
-    link: "https://neutron-oregano.vercel.app/",    
-  },
+  // {
+  //   id: "6",
+  //   title: "Fusion",
+  //   techstack: "React.js, Tailwind CSS",
+  //   image: fusion,
+  //   description: "AI-powered content creation studio for social media creators. Fusion was created to empower content creators with AI-driven insights and tools. It helps creators to generate content ideas, optimize their posts, and analyze their performance.",
+  //   link: "https://neutron-oregano.vercel.app/",    
+  // },
   {
     id: "1",
     title: "The Movie Project",
