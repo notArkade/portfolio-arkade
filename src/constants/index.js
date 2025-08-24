@@ -69,7 +69,7 @@ export const projects = [
   {
     id: "1",
     title: "The Movie Project",
-    techstack: "React.js, Tailwind CSS",
+    techstack: "React.js, Tailwind CSS, Appwrite",
     image: movie,
     description: "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending movies effortlessly.",
     link: "https://notarkade.github.io/TheMovieProject/",    
