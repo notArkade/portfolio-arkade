@@ -80,7 +80,7 @@ export const projects = [
     techstack: "React.js, Tailwind CSS, Python",
     image: sentinel,
     description: "A Machine Learning-Based NIDS for Cybersecurity Threat Detection.",
-    link: "",    
+    link: "https://sentinel-pearl.vercel.app/",    
   },
   {
     id: "0",
