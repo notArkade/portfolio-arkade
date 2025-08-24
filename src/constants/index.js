@@ -11,7 +11,7 @@ import { SiNumpy, SiTailwindcss } from "react-icons/si";
 import { VscBlank } from "react-icons/vsc";
 import festment from "../assets/projects_ss/festment.png";
 import bloomify from "../assets/projects_ss/bloomify.png";
-import fusion from "../assets/projects_ss/fusion.png";
+import curiko from "../assets/projects_ss/curiko.png";
 import sentinel from "../assets/projects_ss/sentinel.png";
 import nike from "../assets/projects_ss/nike.png";
 import weatherly from "../assets/projects_ss/weatherly.png";
@@ -56,16 +56,16 @@ export const projects = [
     techstack: "React.js, Tailwind CSS",
     image: bloomify,
     description: "Bloomify is your go-to platform for effortless and delightful flower buying and selling. Whether you want to brighten someone's day or expand your floral business, we make it simple and seamless.",
-    link: "",    
+    link: "https://bloomify-lac.vercel.app/",    
   },
-  // {
-  //   id: "6",
-  //   title: "Fusion",
-  //   techstack: "React.js, Tailwind CSS",
-  //   image: fusion,
-  //   description: "AI-powered content creation studio for social media creators. Fusion was created to empower content creators with AI-driven insights and tools. It helps creators to generate content ideas, optimize their posts, and analyze their performance.",
-  //   link: "https://neutron-oregano.vercel.app/",    
-  // },
+  {
+    id: "6",
+    title: "Curiko",
+    techstack: "Next.js, Tailwind CSS, Gemini AI",
+    image: curiko,
+    description: "Your personal AI-powered mental health companion.",
+    link: "https://curiko.vercel.app/",    
+  },
   {
     id: "1",
     title: "The Movie Project",
