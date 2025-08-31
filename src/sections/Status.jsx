@@ -4,11 +4,18 @@ import { Element } from "react-scroll";
 import { techstack } from "../constants";
 import { Tooltip } from "react-tooltip";
 import Marquee from "../components/MarqueeEffect/Marquee";
+import HoverGrid from "../components/HoverGrid/HoverGrid";
+
 
 const Status = () => {
   return (
-    <section>
-      <Element name="skills" className="container mx-auto my-20 p-10">
+    <section className="relative min-h-screen flex flex-col justify-center items-center">
+              <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
+
+      <HoverGrid />
+      <Element name="skills" className="container mx-auto p-10">
         <h2 className="text-4xl text-center text-gray-500 my-20 space-mono">Tech Stack</h2>
         <div className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
           <Marquee>

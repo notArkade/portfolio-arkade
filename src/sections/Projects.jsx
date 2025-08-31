@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <section>
       <Element name="projects">
-        <div className="container my-20 p-6 md:p-10 rounded-2xl mt-20">  
+        <div className="container my-20 p-6 md:p-10 rounded-2xl">  
           {/* bg-gradient-to-br from-[#000333] via-[#000000] to-[#000333] */}
           <h1 className="text-3xl md:text-4xl text-gray-500 space-mono mb-10 max-sm:text-center">
             Projects

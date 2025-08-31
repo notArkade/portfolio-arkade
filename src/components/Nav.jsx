@@ -22,7 +22,7 @@ const Nav = () => {
   const NavLink = ({ title, className }) => (
     <LinkScroll
       to={title}
-      offset={-100}
+      offset={-280}
       smooth
       className={`cursor-pointer transition-all duration-300 text-gray-500 font-bold hover:text-white ${className}`}
     >

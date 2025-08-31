@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section>
       <Element name="about">
-        <div className="flex flex-col items-center justify-center text-center">
+        <div className="flex flex-col items-center justify-center text-center my-20">
           {/* <Eye /> */}
 
           <h1>Learning Web Dev, AI ML enthusiast</h1>
