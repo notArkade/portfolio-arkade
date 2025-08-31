@@ -24,9 +24,9 @@ const Nav = () => {
       to={title}
       offset={-100}
       smooth
-      className={`cursor-pointer transition-all duration-300 ${className}`}
+      className={`cursor-pointer transition-all duration-300 text-gray-500 font-bold hover:text-white ${className}`}
     >
-      // <Button_3>{title}</Button_3>
+      <Button_3>{title}</Button_3>
     </LinkScroll>
   );
 
