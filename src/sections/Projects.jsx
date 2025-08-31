@@ -9,8 +9,9 @@ const Projects = () => {
   return (
     <section>
       <Element name="projects">
-        <div className="container my-20 p-6 md:p-10 rounded-2xl bg-gradient-to-br from-[#000333] via-[#000000] to-[#000333]">
-          <h1 className="text-3xl md:text-4xl font-bold text-gray-200 space-mono mb-10 max-sm:text-center">
+        <div className="container my-20 p-6 md:p-10 rounded-2xl">  
+          {/* bg-gradient-to-br from-[#000333] via-[#000000] to-[#000333] */}
+          <h1 className="text-3xl md:text-4xl text-gray-200 space-mono mb-10 max-sm:text-center uppercase">
             Projects
           </h1>
 
@@ -31,9 +32,9 @@ const Projects = () => {
                       duration: 0.05,
                     },
                   }}
-                  viewport={{ 
-                    once: true, 
-                  //   amount: 0.5 
+                  viewport={{
+                    once: true,
+                    //   amount: 0.5
                   }}
                   key={project.id}
                   href={project.link}
@@ -74,7 +75,11 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex items-center justify-center my-10">
-          <Button_2 href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing">View Resume</Button_2>
+          <Button_2>
+            <a href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+              View Resume
+            </a>
+          </Button_2>
         </div>
       </Element>
     </section>

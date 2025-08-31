@@ -9,13 +9,13 @@ const Home = () => {
   const headingRef = useHoverTextEffect();
 
   return (
-    <section className="relative h-screen overflow-hidden">
+    <section className="relative h-screen hex overflow-hidden">
       <Element name="home">
-        <Rings
+        {/* <Rings
           position1="top-[-70px] right-[-100px]"
           position2="bottom-[-70px] left-[-100px]"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black pointer-events-none" />
+        /> */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
         <div className="my-[4.5rem] flex items-center justify-center">
           <div className="container-home text-center">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
@@ -23,7 +23,7 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-gray-300 text-center text-[260px] mb-5 tracking-[0.08em] cursor-default space-mono z-2">
+              <h1 className="font-bold uppercase text-gray-300 text-center text-[260px] mt-28 mb-5 tracking-[0.08em] cursor-default space-mono z-2">
                 Arkade
               </h1>
             </div>
