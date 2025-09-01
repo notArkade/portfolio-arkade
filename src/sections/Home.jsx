@@ -17,18 +17,21 @@ const Home = () => {
           position2="bottom-[-70px] left-[-100px]"
         /> */}
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
-        <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-transparent pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-transparent pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
         <HoverGrid />{" "}
         <div className="my-[4.5rem] flex items-center justify-center">
           <div className="container-home text-center">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
+              <h3 className="flex flex-row tracking-[0.5em] mt-28 text-2xl uppercase ml-48 space-mono">
+                Hello there, I'm
+              </h3>
             <div className="flex items-center justify-center">
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-gray-300 text-center text-[260px] mt-28 mb-5 tracking-[0.08em] cursor-default space-mono z-2">
-                Arkade
+              <h1 className="font-bold uppercase text-gray-300 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
+                Arkadip Das
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">

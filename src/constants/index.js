@@ -16,6 +16,10 @@ import sentinel from "../assets/projects_ss/sentinel.png";
 import nike from "../assets/projects_ss/nike.png";
 import weatherly from "../assets/projects_ss/weatherly.png";
 import movie from "../assets/projects_ss/movie.png";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 
 export const techstack = [
   { id: "0", Icon: FaPython, tech: "Python" },
@@ -39,8 +43,26 @@ export const techstack = [
 export const socials = [
   {
     id: "0",
-    site: "",
-    logo: "",
+    site: "GitHub",
+    Icon: FaGithub,
+    url: "#",
+  },
+  {
+    id: "1",
+    site: "LinkedIn",
+    Icon: FaLinkedin,
+    url: "#",
+  },
+  {
+    id: "2",
+    site: "Discord",
+    Icon: FaDiscord,
+    url: "#",
+  },
+  {
+    id: "3",
+    site: "Instagram",
+    Icon: FaInstagram,
     url: "#",
   },
 ];

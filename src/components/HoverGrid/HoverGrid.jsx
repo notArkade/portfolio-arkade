@@ -221,7 +221,7 @@ const GridCell = React.memo(({ index, cols, hoverPosition, cellSize }) => {
       borderWidth: `${borderWidth}px`,
       borderColor:
         intensity > 0
-          ? `rgba(34,197,94,${borderAlpha})` // blue-500
+          ? `rgba(34,197,94,${borderAlpha})` // green-500
           : `rgba(34,197,94,${borderAlpha})`,
       transform: `scale(${scale})`,
       pointerEvents: "none",
