@@ -16,6 +16,7 @@ import sentinel from "../assets/projects_ss/sentinel.png";
 import nike from "../assets/projects_ss/nike.png";
 import weatherly from "../assets/projects_ss/weatherly.png";
 import movie from "../assets/projects_ss/movie.png";
+import xora from "../assets/projects_ss/xora.png";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
@@ -69,7 +70,7 @@ export const socials = [
 
 export const projects = [
   {
-    id: "5",
+    id: "0",
     title: "Bloomify",
     techstack: "React.js, Tailwind CSS",
     image: bloomify,
@@ -77,7 +78,7 @@ export const projects = [
     link: "https://bloomify-lac.vercel.app/",    
   },
   {
-    id: "6",
+    id: "1",
     title: "Curiko",
     techstack: "Next.js, Tailwind CSS, Gemini AI",
     image: curiko,
@@ -85,7 +86,7 @@ export const projects = [
     link: "https://curiko.vercel.app/",    
   },
   {
-    id: "1",
+    id: "2",
     title: "The Movie Project",
     techstack: "React.js, Tailwind CSS, Appwrite",
     image: movie,
@@ -93,7 +94,7 @@ export const projects = [
     link: "https://notarkade.github.io/TheMovieProject/",    
   },
   {
-    id: "4",
+    id: "3",
     title: "Sentinel",
     techstack: "React.js, Tailwind CSS, Python",
     image: sentinel,
@@ -101,7 +102,7 @@ export const projects = [
     link: "https://sentinel-pearl.vercel.app/",    
   },
   {
-    id: "0",
+    id: "4",
     title: "Festment",
     techstack: "HTML, Tailwind CSS",
     image: festment,
@@ -109,20 +110,28 @@ export const projects = [
     "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
     link: "https://notarkade.github.io/FestMent/",      
   },
-  // {
-  //   id: "2",
-  //   title: "Weatherly",
-  //   techstack: "React.js, Tailwind CSS",
-  //   image: weatherly,
-  //   description: "A responsive weather app I built with JavaScript, HTML, and CSS. It provides real-time weather updates, including temperature, humidity, and wind speed, based on user's city search.",
-  //   link: "https://notarkade.github.io/Project-1/",    
-  // },
   {
-    id: "3",
+    id: "5",
+    title: "XORA",
+    techstack: "React.js, Tailwind CSS",
+    image: xora,
+    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
+    link: "https://xora-jlvureiby-notarkades-projects.vercel.app/",    
+  },
+  {
+    id: "6",
     title: "The Nike Website",
     techstack: "React.js, Tailwind CSS",
     image: nike,
     description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
     link: "https://la-nike-sitio-web.vercel.app/",    
   },
+  // {
+  //   id: "7",
+  //   title: "Weatherly",
+  //   techstack: "Javascript, HTML, CSS, APIs",
+  //   image: weatherly,
+  //   description: "A responsive weather app I built with JavaScript, HTML, and CSS. It provides real-time weather updates, including temperature, humidity, and wind speed, based on user's city search.",
+  //   link: "https://notarkade.github.io/Project-1/",    
+  // },
 ];

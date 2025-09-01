@@ -5,6 +5,7 @@ import { techstack } from "../constants";
 import { useState } from "react";
 import Rings from "../components/Rings";
 import HoverGrid from "../components/HoverGrid/HoverGrid";
+import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   const headingRef = useHoverTextEffect();
@@ -23,15 +24,31 @@ const Home = () => {
         <div className="my-[4.5rem] flex items-center justify-center">
           <div className="container-home text-center">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
-              <h3 className="flex flex-row tracking-[0.5em] mt-28 text-2xl uppercase ml-48 space-mono">
-                Hello there, I'm
-              </h3>
+            <h3 className="flex flex-row tracking-[0.5em] mt-28 text-2xl uppercase ml-48 space-mono">
+              Hello there, I'm
+            </h3>
             <div className="flex items-center justify-center">
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
               <h1 className="font-bold uppercase text-gray-300 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
-                Arkadip Das
+                <TypeAnimation
+                  sequence={[
+                    "Arkadip Das",
+                    2000,
+                    "",
+                    100,
+                    "Arkade",
+                    5000,
+                    "",
+                    100,
+                  ]}
+                  wrapper="span"
+                  speed={1}
+                  repeat={Infinity}
+                  cursor={true}
+                  cursorStyle="_"
+                />
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">
