@@ -70,6 +70,14 @@ export const socials = [
 
 export const projects = [
   {
+    id: "1",
+    title: "Curiko",
+    techstack: "Next.js, Tailwind CSS, Gemini AI",
+    image: curiko,
+    description: "Your personal AI-powered mental health companion.",
+    link: "https://curiko.vercel.app/",    
+  },
+  {
     id: "0",
     title: "Bloomify",
     techstack: "React.js, Tailwind CSS",
@@ -78,12 +86,12 @@ export const projects = [
     link: "https://bloomify-lac.vercel.app/",    
   },
   {
-    id: "1",
-    title: "Curiko",
-    techstack: "Next.js, Tailwind CSS, Gemini AI",
-    image: curiko,
-    description: "Your personal AI-powered mental health companion.",
-    link: "https://curiko.vercel.app/",    
+    id: "5",
+    title: "XORA",
+    techstack: "React.js, Tailwind CSS",
+    image: xora,
+    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
+    link: "https://xora-jlvureiby-notarkades-projects.vercel.app/",    
   },
   {
     id: "2",
@@ -109,14 +117,6 @@ export const projects = [
     description:
     "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
     link: "https://notarkade.github.io/FestMent/",      
-  },
-  {
-    id: "5",
-    title: "XORA",
-    techstack: "React.js, Tailwind CSS",
-    image: xora,
-    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "https://xora-jlvureiby-notarkades-projects.vercel.app/",    
   },
   {
     id: "6",

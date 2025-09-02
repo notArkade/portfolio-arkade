@@ -31,7 +31,7 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-gray-400 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
+              <h1 className="font-bold uppercase text-gray-100 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
                 {/* <TypeAnimation
                   sequence={[
                     "Arkadip Das",
@@ -49,7 +49,7 @@ const Home = () => {
                   cursor={true}
                   cursorStyle="_"
                 /> */}
-                <span>Arkadip Das</span>
+                <span>Arkade</span>
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">
