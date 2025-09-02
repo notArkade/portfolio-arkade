@@ -63,12 +63,12 @@ neon greens:
   } */
 
   /* Cursor expands when hovering over buttons or links */
-  /* .custom-cursor.cursor-hover {
+  .custom-cursor.cursor-hover {
     width: 30px;
     height: 30px;
-    background-color: #4dd0e1;
+    background-color: #22c55e;
     opacity: 50%;
-  } */
+  }
 
   /* Hide the trailing cursor when hovering */
   .cursor-trail.hidden {

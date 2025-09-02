@@ -31,8 +31,8 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-gray-300 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
-                <TypeAnimation
+              <h1 className="font-bold uppercase text-gray-400 text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
+                {/* <TypeAnimation
                   sequence={[
                     "Arkadip Das",
                     2000,
@@ -48,11 +48,18 @@ const Home = () => {
                   repeat={Infinity}
                   cursor={true}
                   cursorStyle="_"
-                />
+                /> */}
+                <span>Arkadip Das</span>
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">
-              {"{Web developer}"}
+              {"}"}
+              <TypeAnimation
+                sequence={["Web developer", 3000, "AIML enthusiast", 3000]}
+                cursor={false}
+                repeat={Infinity}
+              />
+              {"{"}
             </h3>
           </div>
         </div>
