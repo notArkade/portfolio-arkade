@@ -53,25 +53,25 @@ export const socials = [
     id: "0",
     site: "GitHub",
     Icon: FaGithub,
-    url: "#",
+    url: "https://github.com/notArkade",
   },
   {
     id: "1",
     site: "LinkedIn",
     Icon: FaLinkedin,
-    url: "#",
+    url: "https://www.linkedin.com/in/arkadip-das-628a02278/",
   },
-  {
-    id: "2",
-    site: "Discord",
-    Icon: FaDiscord,
-    url: "#",
-  },
+  // {
+  //   id: "2",
+  //   site: "Discord",
+  //   Icon: FaDiscord,
+  //   url: "",
+  // },
   {
     id: "3",
     site: "Instagram",
     Icon: FaInstagram,
-    url: "#",
+    url: "https://www.instagram.com/",
   },
 ];
 
