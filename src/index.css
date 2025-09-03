@@ -38,6 +38,10 @@ neon greens:
     /* cursor: none; */
   }
 
+  html, body {
+    scroll-behavior: smooth;
+  }
+
   .custom-cursor {
     width: 5px;
     height: 5px;

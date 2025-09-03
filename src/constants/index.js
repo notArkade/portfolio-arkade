@@ -6,7 +6,10 @@ import {
   FaReact,
   FaJs,
   FaNodeJs,
+  FaBootstrap,
+
 } from "react-icons/fa";
+import { RiNextjsFill } from "react-icons/ri";
 import { SiNumpy, SiTailwindcss } from "react-icons/si";
 import { VscBlank } from "react-icons/vsc";
 import festment from "../assets/projects_ss/festment.png";
@@ -31,14 +34,18 @@ export const techstack = [
   { id: "5", Icon: SiTailwindcss, tech: "Tailwind CSS" },
   { id: "6", Icon: FaJs, tech: "JavaScript" },
   { id: "7", Icon: FaNodeJs, tech: "Node.js" },
-  { id: "8", Icon: FaPython, tech: "Python" },
-  { id: "9", Icon: SiNumpy, tech: "NumPy" },
-  { id: "10", Icon: FaHtml5, tech: "HTML" },
-  { id: "11", Icon: FaCss3Alt, tech: "CSS" },
-  { id: "12", Icon: FaReact, tech: "React" },
-  { id: "13", Icon: SiTailwindcss, tech: "Tailwind CSS" },
-  { id: "14", Icon: FaJs, tech: "JavaScript" },
-  { id: "15", Icon: FaNodeJs, tech: "Node.js" },
+  { id: "9", Icon: RiNextjsFill, tech: "Next.js" },
+  { id: "8", Icon: FaBootstrap, tech: "Bootstrap" },
+  { id: "10", Icon: FaPython, tech: "Python" },
+  { id: "11", Icon: SiNumpy, tech: "NumPy" },
+  { id: "12", Icon: FaHtml5, tech: "HTML" },
+  { id: "13", Icon: FaCss3Alt, tech: "CSS" },
+  { id: "14", Icon: FaReact, tech: "React" },
+  { id: "15", Icon: SiTailwindcss, tech: "Tailwind CSS" },
+  { id: "16", Icon: FaJs, tech: "JavaScript" },
+  { id: "17", Icon: FaNodeJs, tech: "Node.js" },
+  { id: "19", Icon: RiNextjsFill, tech: "Next.js" },
+  { id: "18", Icon: FaBootstrap, tech: "Bootstrap" },
 ];
 
 export const socials = [
@@ -91,7 +98,7 @@ export const projects = [
     techstack: "React.js, Tailwind CSS",
     image: xora,
     description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "https://xora-jlvureiby-notarkades-projects.vercel.app/",    
+    link: "https://xora-bay.vercel.app/",    
   },
   {
     id: "2",
