@@ -138,9 +138,9 @@ import { Element } from "react-scroll";
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 import Button_2 from "../components/Button_2";
 
-const AnimatedText = ({ text, scrollYProgress }) => {
+const AnimatedText = ({ text, scrollYProgress, className }) => {
   return (
-    <span>
+    <span className={className}>
       {text.split("").map((char, i) => {
         const start = i * 0.01; // stagger each letter
         const end = start + 0.5; // duration of fade per letter
@@ -208,7 +208,7 @@ const About = () => {
               />
             </h1>
 
-            <p className="mt-6 text-lg opacity-80">
+            <p className="mt-8 text-lg space-mono opacity-80">
               <AnimatedText
                 text="CS major, passionate about Web Development & AI/ML."
                 scrollYProgress={scrollYProgress}
@@ -230,9 +230,9 @@ const About = () => {
 
           {/* Progress bar */}
           <div className="absolute bottom-0 w-full">
-            <div className="w-full h-1 rounded-full bg-gray-300">
+            <div className="w-full h-1 rounded-full bg-gradient-to-r from-green-400 to-green-500">
               <motion.div
-                className="h-1 rounded-full bg-gradient-to-r from-green-400 to-green-500"
+                className="h-1 rounded-full bg-black"
                 style={{ width: progress }}
               />
             </div>

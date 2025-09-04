@@ -7,6 +7,7 @@ import Contact from "./sections/Contact";
 import Home from "./sections/Home";
 import Status from "./sections/Status";
 import CustomCursor from "./sections/CustomCursor";
+import What from "./sections/What";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Status />
       <About />
       <Projects />
+      <What />
       <Contact />
       <Footer />
     </main>

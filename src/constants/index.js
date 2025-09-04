@@ -9,6 +9,8 @@ import {
   FaBootstrap,
 
 } from "react-icons/fa";
+import { SiPandas } from "react-icons/si";
+import { SiMysql } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { SiNumpy, SiTailwindcss } from "react-icons/si";
 import { VscBlank } from "react-icons/vsc";
@@ -28,24 +30,28 @@ import { FaGithub } from "react-icons/fa";
 export const techstack = [
   { id: "0", Icon: FaPython, tech: "Python" },
   { id: "1", Icon: SiNumpy, tech: "NumPy" },
+  { id: "22", Icon: SiPandas, tech: "Pandas" },
   { id: "2", Icon: FaHtml5, tech: "HTML" },
   { id: "3", Icon: FaCss3Alt, tech: "CSS" },
-  { id: "4", Icon: FaReact, tech: "React" },
   { id: "5", Icon: SiTailwindcss, tech: "Tailwind CSS" },
+  { id: "8", Icon: FaBootstrap, tech: "Bootstrap" },
   { id: "6", Icon: FaJs, tech: "JavaScript" },
   { id: "7", Icon: FaNodeJs, tech: "Node.js" },
+  { id: "4", Icon: FaReact, tech: "React" },
   { id: "9", Icon: RiNextjsFill, tech: "Next.js" },
-  { id: "8", Icon: FaBootstrap, tech: "Bootstrap" },
+  { id: "20", Icon: SiMysql, tech: "MySQL" },
   { id: "10", Icon: FaPython, tech: "Python" },
   { id: "11", Icon: SiNumpy, tech: "NumPy" },
+  { id: "23", Icon: SiPandas, tech: "Pandas" },
   { id: "12", Icon: FaHtml5, tech: "HTML" },
   { id: "13", Icon: FaCss3Alt, tech: "CSS" },
-  { id: "14", Icon: FaReact, tech: "React" },
   { id: "15", Icon: SiTailwindcss, tech: "Tailwind CSS" },
+  { id: "18", Icon: FaBootstrap, tech: "Bootstrap" },
   { id: "16", Icon: FaJs, tech: "JavaScript" },
   { id: "17", Icon: FaNodeJs, tech: "Node.js" },
+  { id: "14", Icon: FaReact, tech: "React" },
   { id: "19", Icon: RiNextjsFill, tech: "Next.js" },
-  { id: "18", Icon: FaBootstrap, tech: "Bootstrap" },
+  { id: "21", Icon: SiMysql, tech: "MySQL" },
 ];
 
 export const socials = [
