@@ -26,6 +26,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaDiscord } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import pokemon from "../assets/projects_ss/pokemon.png";
 
 export const techstack = [
   { id: "0", Icon: FaPython, tech: "Python" },
@@ -139,12 +140,12 @@ export const projects = [
     description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
     link: "https://la-nike-sitio-web.vercel.app/",    
   },
-  // {
-  //   id: "7",
-  //   title: "Weatherly",
-  //   techstack: "Javascript, HTML, CSS, APIs",
-  //   image: weatherly,
-  //   description: "A responsive weather app I built with JavaScript, HTML, and CSS. It provides real-time weather updates, including temperature, humidity, and wind speed, based on user's city search.",
-  //   link: "https://notarkade.github.io/Project-1/",    
-  // },
+  {
+    id: "7",
+    title: "Pokédex",
+    techstack: "React.js, Tailwind CSS, PokeAPI",
+    image: pokemon,
+    description: "A Pokédex featuring Pokémon",
+    link: "https://notarkade.github.io/Project-1/",    
+  },
 ];

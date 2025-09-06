@@ -14,7 +14,7 @@ const Marquee = ({ children }) => {
     const containerRect = containerRef.current.getBoundingClientRect();
     const marqueeRect = marqueeRef.current.getBoundingClientRect();
 
-    const containerWidth = containerRect.Width;
+    const containerWidth = containerRect.width;
     const marqueeWidth = marqueeRect.width;
 
     if (marqueeWidth < containerWidth) {
