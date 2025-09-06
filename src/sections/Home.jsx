@@ -49,7 +49,7 @@ const Home = () => {
                   cursor={true}
                   cursorStyle="_"
                 /> */}
-                <span>Arkade</span>
+                <span>Arkadip</span>
               </h1>
             </div>
             <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">

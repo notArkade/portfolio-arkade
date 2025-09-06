@@ -210,7 +210,7 @@ const About = () => {
 
             <p className="mt-8 text-lg space-mono opacity-80">
               <AnimatedText
-                text="CS major, passionate about Web Development & AI/ML."
+                text="CS major, i like Web Development & AI/ML."
                 scrollYProgress={scrollYProgress}
               />
             </p>
