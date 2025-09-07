@@ -146,6 +146,6 @@ export const projects = [
     techstack: "React.js, Tailwind CSS, PokeAPI",
     image: pokemon,
     description: "A Pokédex featuring Pokémon",
-    link: "https://notarkade.github.io/Project-1/",    
+    link: "/",    
   },
 ];

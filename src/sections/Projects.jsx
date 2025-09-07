@@ -26,7 +26,7 @@ const HorizontalScrollCarousel = () => {
     target: targetRef,
   });
 
-  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-79.75%"]);
+  const x = useTransform(scrollYProgress, [0, 1], ["10%", "-82.12%"]);
 
   // Background: stay white until the very end, then turn black
   // const background = useTransform(
