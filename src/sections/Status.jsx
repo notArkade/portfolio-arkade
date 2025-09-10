@@ -16,7 +16,7 @@ const Status = () => {
 
       {/* <HoverGrid /> */}
       <Element name="skills" className="container mx-auto p-10">
-        <h2 className="text-4xl text-center text-gray-500 my-20 space-mono">Tech Stack</h2>
+        <h2 className="text-4xl text-center my-20 space-mono text-shadow-flicker animate-flicker">Tech Stack</h2>
         <div className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
           <Marquee>
             {techstack.map(({ id, Icon, tech }) => (
