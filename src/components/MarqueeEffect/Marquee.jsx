@@ -42,7 +42,7 @@ const Marquee = ({ children }) => {
   const marqueeAnimation = {
     x: ["0%", "-100%"],
     transition: {
-      duration: 80,
+      duration: 150,
       ease: "linear",
       repeat: Infinity,
     },

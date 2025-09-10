@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400..800&display=swap");
 @import "tailwindcss";
 
 /* colors
@@ -38,8 +38,37 @@ neon greens:
     /* cursor: none; */
   }
 
-  html, body {
+  html,
+  body {
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #1a1a1a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #4a4a4a;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #6a6a6a;
+  }
+
+  /* Optimize animations */
+  * {
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  * {
+    -webkit-overflow-scrolling: touch;
   }
 
   .custom-cursor {
@@ -78,7 +107,7 @@ neon greens:
   .cursor-trail.hidden {
     display: none;
   }
-  
+
   ::selection {
     background-color: #22c55e; /* Change the background color */
     color: black; /* Change the text color */

@@ -20,7 +20,7 @@ const Home = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-transparent pointer-events-none" />
         <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
-        <HoverGrid />{" "}
+        {/* <HoverGrid />{" "} */}
         <div className="my-[4.5rem] flex items-center justify-center">
           <div className="container-home text-center">
             {/* <h2 className="text-[36px] space-mono">Hello there,</h2> */}
@@ -31,7 +31,7 @@ const Home = () => {
               {/* <span className="text-xl whitespace-nowrap pt-[14.9rem] mr-4 uppercase">
                 i'm
               </span> */}
-              <h1 className="font-bold uppercase text-[#fff] drop-shadow-[0_0_10px_#fff] animate-pulse text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
+              <h1 className="font-bold uppercase text-[#fff] drop-shadow-[0_0_5px_#fff] text-center text-[150px] mt-10 mb-10 tracking-[0.08em] cursor-default z-2">
                 {/* <TypeAnimation
                   sequence={[
                     "Arkadip Das",

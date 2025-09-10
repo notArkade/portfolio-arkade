@@ -14,7 +14,7 @@ const Status = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
 
-      <HoverGrid />
+      {/* <HoverGrid /> */}
       <Element name="skills" className="container mx-auto p-10">
         <h2 className="text-4xl text-center text-gray-500 my-20 space-mono">Tech Stack</h2>
         <div className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
