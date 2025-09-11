@@ -12,15 +12,15 @@ import What from "./sections/What";
 function App() {
   return (
     <main className="scroll-hide">
-      <CustomCursor />
-      <Header />
-      <Home />
-      <Status />
-      <About />
-      <Projects />
-      <What />
-      <Contact />
-      <Footer />
+        <CustomCursor />
+        <Header />
+        <Home />
+        <Status />
+        <About />
+        <Projects />
+        <What />
+        <Contact />
+        <Footer />
     </main>
   );
 }
@@ -63,5 +63,3 @@ export default App;
 // }
 
 // export default App;
-
-

@@ -178,7 +178,7 @@ const About = () => {
   return (
     <Element name="about">
       {/* Make this section extra tall to allow scrolling */}
-      <section ref={targetRef} className="relative h-[300vh]">
+      <section ref={targetRef} className="relative h-[300vh] z-2">
         {/* Sticky container */}
         <div className="sticky top-0 flex h-screen items-center justify-center">
           <div className="text-center max-w-3xl px-6">

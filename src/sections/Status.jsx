@@ -14,6 +14,7 @@ const Status = () => {
               <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
 
+
       {/* <HoverGrid /> */}
       <Element name="skills" className="container mx-auto p-10">
         <h2 className="text-4xl text-center my-20 space-mono text-shadow-flicker animate-flicker">Tech Stack</h2>

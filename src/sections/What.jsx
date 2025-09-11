@@ -6,7 +6,7 @@ const What = () => {
 
   return (
     <>
-    <div className='text-center text-gray-600 my-20 text-3xl font-bold inter hover:scale-200 transition-transform duration-300 cursor-default'>
+    <div className='text-center text-gray-600 my-20 text-3xl font-bold inter transition-transform duration-300 cursor-default'>
         What's happening here?
     </div>
     </>
