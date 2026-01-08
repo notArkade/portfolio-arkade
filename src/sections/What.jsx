@@ -1,16 +1,39 @@
 import { useState } from "react";
+import monkey from "../assets/monkey-calling.gif";
 
 const What = () => {
-
-    const[hovered, setHovered] = useState(false);
+  const [hovered, setHovered] = useState(false);
 
   return (
-    <>
-    <div className='text-center text-gray-600 my-20 text-3xl font-bold inter transition-transform duration-300 cursor-default'>
-        What's happening here?
-    </div>
-    </>
-  )
-}
+    <div className="relative group text-center my-20 cursor-default">
+      {/* Text */}
+      <div className="text-gray-600 text-3xl font-bold inter flex justify-center items-center">
+        <span className="transition-transform duration-300 group-hover:-translate-x-66 group-hover:scale-200">
+          What&apos;s happe
+        </span>
 
-export default What
+        <span className="transition-transform duration-300 group-hover:translate-x-48 group-hover:scale-200">
+          ning here?
+        </span>
+      </div>
+
+      {/* GIF */}
+      <img
+        src={monkey}
+        alt="popup"
+        className="
+      pointer-events-none
+      absolute left-1/2 top-1/2
+      -translate-x-1/2 -translate-y-1/2
+      w-32
+      opacity-0 scale-0
+      transition-all duration-200 ease-out
+      group-hover:opacity-100
+      group-hover:scale-200
+    "
+      />
+    </div>
+  );
+};
+
+export default What;

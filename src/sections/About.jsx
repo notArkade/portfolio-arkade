@@ -188,12 +188,12 @@ const About = () => {
 
             <h1 className="text-4xl md:text-6xl font-bold leading-snug inter">
               <AnimatedText
-                text="I'm Arkadip Das"
+                text="I'm a software developer"
                 scrollYProgress={scrollYProgress}
               />
               <br />
               <AnimatedText
-                text="Combining creativity with technology"
+                text="combining creativity with technology"
                 scrollYProgress={scrollYProgress}
               />
               <br />
