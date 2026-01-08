@@ -229,17 +229,17 @@ const About = () => {
           </div>
 
           {/* Progress bar */}
-          <div className="absolute bottom-0 w-full">
+          {/* <div className="absolute bottom-0 w-full">
             <div className="w-full h-1 rounded-full bg-gradient-to-r from-green-400 to-green-500">
               <motion.div
                 className="h-1 rounded-full bg-black"
                 style={{ width: progress }}
               />
             </div>
-            {/* <div className="text-white/40 mt-2">
+            <div className="text-white/40 mt-2">
               // LOADING: {progressPercentage}%
-            </div> */}
-          </div>
+            </div>
+          </div> */}
 
         </div>
       </section>
