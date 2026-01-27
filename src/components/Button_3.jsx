@@ -13,9 +13,7 @@ const Button_3 = ({ href, onClick, children }) => {
   ) : (
     <button
       onClick={onClick}
-      className="relative hover:text-white transition-all duration-300 text-md space-mono cursor-pointer p-2 
-      after:content-[''] after:absolute after:left-0 after:bottom-[-1px] after:w-0 after:h-[2px] 
-      after:bg-[rgba(34,197,94)] after:transition-all after:duration-300 hover:after:w-full"
+      className="relative hover:text-white transition-all text-md space-mono cursor-pointer p-2"
     >
       <span>// {children}</span>
     </button>
@@ -23,3 +21,6 @@ const Button_3 = ({ href, onClick, children }) => {
 };
 
 export default Button_3;
+
+// after:content-[''] after:absolute after:left-0 after:bottom-[-1px] after:w-0 after:h-[2px]
+//       after:bg-white after:transition-all after:duration-300 hover:after:w-full

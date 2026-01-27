@@ -135,8 +135,14 @@
 
 import React, { useRef, useState } from "react";
 import { Element } from "react-scroll";
-import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
+import {
+  motion,
+  useScroll,
+  useTransform,
+  useMotionValueEvent,
+} from "framer-motion";
 import Button_2 from "../components/Button_2";
+import { MdAccountCircle } from "react-icons/md";
 
 const AnimatedText = ({ text, scrollYProgress, className }) => {
   return (
@@ -148,7 +154,7 @@ const AnimatedText = ({ text, scrollYProgress, className }) => {
         const color = useTransform(
           scrollYProgress,
           [start, end],
-          ["#000000", "#999999"]
+          ["#111111", "#999999"],
         );
 
         return (
@@ -163,59 +169,29 @@ const AnimatedText = ({ text, scrollYProgress, className }) => {
 
 const About = () => {
   const targetRef = useRef(null);
-  const { scrollYProgress } = useScroll({
-    target: targetRef,
-    offset: ["start start", "end end"],
-  });
-
-  const progress = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
-
-  const[progressPercentage, setProgressPercentage] = useState(0);
-  useMotionValueEvent(scrollYProgress, "change", (latest) => {
-    setProgressPercentage(Math.round(latest * 100));
-  })
 
   return (
     <Element name="about">
       {/* Make this section extra tall to allow scrolling */}
-      <section ref={targetRef} className="relative h-[300vh] z-2">
+      <section ref={targetRef} className="container my-40">
         {/* Sticky container */}
-        <div className="sticky top-0 flex h-screen items-center justify-center">
-          <div className="text-center max-w-3xl px-6">
-            <h4 className="uppercase tracking-wider font-bold text-sm mb-4 space-mono text-gray-500">
-              About Me
-            </h4>
-
-            <h1 className="text-4xl md:text-6xl font-bold leading-snug inter">
-              <AnimatedText
-                text="I'm a software developer"
-                scrollYProgress={scrollYProgress}
-              />
-              <br />
-              <AnimatedText
-                text="combining creativity with technology"
-                scrollYProgress={scrollYProgress}
-              />
-              <br />
-              <AnimatedText
-                text="to build sleek, responsive, impactful"
-                scrollYProgress={scrollYProgress}
-              />
-              <br />
-              <AnimatedText
-                text="web experiences and intelligent solutions"
-                scrollYProgress={scrollYProgress}
-              />
-            </h1>
-
-            <p className="mt-8 text-lg space-mono opacity-80">
-              <AnimatedText
-                text="CS major, i like Web Development & AI/ML."
-                scrollYProgress={scrollYProgress}
-              />
-            </p>
-
-            {/* <div className="flex items-center justify-center my-10">
+        <div className="flex gap-4 justify-items-center mb-10 text-gray-500">
+          <MdAccountCircle size={28} />
+          <h4 className="uppercase text-3xl md:text-xl mb-4 space-mono">
+            About Me
+          </h4>
+        </div>
+        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug">
+          I'm a <span className="text-gray-300">software developer</span>{" "}
+          combining creativity with technology to build <span className="italic text-red-800">sleek,</span> responsive,
+          impactful web experiences and intelligent solutions.
+        </p>
+        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide leading-relaxed">
+          CS major, i like{" "}
+          <span className="text-gray-300 underline underline-offset-8 decoration-amber-400">web development</span> &{" "}
+          <span className="text-gray-300 underline underline-offset-8 decoration-blue-500">AI/ML</span>.
+        </p>
+        {/* <div className="flex items-center justify-center my-10">
               <Button_2>
                 <a
                   href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
@@ -226,10 +202,8 @@ const About = () => {
                 </a>
               </Button_2>
             </div> */}
-          </div>
-
-          {/* Progress bar */}
-          {/* <div className="absolute bottom-0 w-full">
+        {/* Progress bar */}
+        {/* <div className="absolute bottom-0 w-full">
             <div className="w-full h-1 rounded-full bg-gradient-to-r from-green-400 to-green-500">
               <motion.div
                 className="h-1 rounded-full bg-black"
@@ -240,8 +214,6 @@ const About = () => {
               // LOADING: {progressPercentage}%
             </div>
           </div> */}
-
-        </div>
       </section>
     </Element>
   );

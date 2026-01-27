@@ -8,22 +8,22 @@ const Button_2 = ({ href, onClick, children }) => {
   return href ? (
     <a
       href={href}
-      className="text-sm space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md hover:text-gray-300 transition duration-500"
+      className="text-sm space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md text-red-400 hover:text-gray-300  hover:bg-red-500"
     >
       <span 
       // ref={headingRef} 
-      className="hover:mx-2 hover:tracking-[0.3em] transition-all duration-300 text-red-400">{children}</span>
-      <span className="ml-2 transition-all duration-600">{">>"}</span>
+      className="mx-2">{children}</span>
+      {/* <span className="ml-2">{">>"}</span> */}
     </a>
   ) : (
     <button
       onClick={onClick}
-      className="text-sm space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md hover:text-gray-300 transition duration-500"
+      className="text-sm space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md text-red-400 hover:text-gray-300 hover:bg-red-500"
     >
       <span 
       // ref={headingRef} 
-      className="hover:mx-2 hover:tracking-[0.3em] transition-all duration-300 text-red-400">{children}</span>
-      <span className="ml-2 transition-all duration-600">{">>"}</span>
+      className="mx-2">{children}</span>
+      {/* <span className="ml-2">{">>"}</span> */}
     </button>
   );
 };

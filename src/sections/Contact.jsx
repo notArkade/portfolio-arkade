@@ -4,7 +4,7 @@ import { socials } from "../constants";
 
 const Contact = () => {
   return (
-    <section className="bg-black">
+    <section className="">
       <Element name="contact" >
         <div className="flex justify-center items-center p-10 space-x-2">
           {socials.map(({ id, url, Icon, site }) => (

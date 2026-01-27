@@ -34,14 +34,14 @@ const Nav = () => {
     <header
       className={clsx(
         "fixed top-0 py-7 left-0 z-50 w-full transition-all duration-500 text-gray-500",
-        hasScrolled && "py-2 bg-black/80 backdrop-blur-[8px] text-green-500"
+        hasScrolled && "bg-black/80 backdrop-blur-[20px] text-gray-500 mx-auto"
       )}
     >
       <div className="w-full">
         <ul className="nav-li group">
         <NavLink title="home" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="skills" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
-        <NavLink title="about" offset={1000} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="about" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="projects" offset={-200} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="contact" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         </ul>

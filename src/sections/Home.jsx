@@ -13,7 +13,7 @@ const Home = () => {
 
   return (
     <>
-      <ParticlesBackground />
+      {/* <ParticlesBackground /> */}
       <section className="relative h-screen overflow-hidden">
         <Element name="home">
           {/* <Rings
@@ -52,7 +52,7 @@ const Home = () => {
                   cursor={true}
                   cursorStyle="_"
                 /> */}
-                  <span>Arkadip</span>
+                  <span>Arka<span className="animate-flicker">dip</span></span>
                 </h1>
               </div>
               <h3 className="flex flex-row-reverse tracking-[0.5em] text-2xl uppercase mr-32 space-mono">

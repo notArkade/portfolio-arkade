@@ -5,7 +5,7 @@ const What = () => {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div className="relative group text-center my-20 cursor-default">
+    <div className="relative group text-center my-20 mb-40 cursor-default">
       {/* Text */}
       <div className="text-gray-600 text-3xl font-bold inter flex justify-center items-center">
         <span className="transition-transform duration-300 group-hover:-translate-x-66 group-hover:scale-200">

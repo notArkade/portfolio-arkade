@@ -9,10 +9,10 @@ import HoverGrid from "../components/HoverGrid/HoverGrid";
 
 const Status = () => {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center items-center">
-              <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black pointer-events-none" />
-              <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black pointer-events-none" />
-              <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-black pointer-events-none" />
+    <section className="relative min-h-screen bg-gradient-to-b from-black to-[#111111] flex flex-col justify-center items-center">
+              {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-[#111111] pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-[#111111] pointer-events-none" />
+              <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-[#111111] pointer-events-none" /> */}
 
 
       {/* <HoverGrid /> */}
