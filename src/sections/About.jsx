@@ -143,6 +143,7 @@ import {
 } from "framer-motion";
 import Button_2 from "../components/Button_2";
 import { MdAccountCircle } from "react-icons/md";
+import Highlight from "../components/Highlight";
 
 const AnimatedText = ({ text, scrollYProgress, className }) => {
   return (
@@ -181,46 +182,52 @@ const About = () => {
             About Me
           </h4>
         </div>
-        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug">
-          I'm a <span className="text-gray-300">software developer</span>{" "}
-          combining creativity with technology to build{" "}
-          <span className="italic text-red-800">sleek,</span> responsive,
-          impactful web experiences and intelligent solutions.
+        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug cursor-default">
+          I'm a <span className="text-gray-300">software developer</span> aiming
+          to combine creativity with technology to build{" "}
+          <span className="italic text-red-800">sleek</span>
+          {", "}
+          <span className="hover:text-red-800">responsive</span>
+          {", "}
+          <span className="text-red-800">impactful</span> web experiences and
+          intelligent solutions.
         </p>
         <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide leading-relaxed">
-          CS major, i am currently learning{" "}<br/>
+          CS major, i am currently learning <br />
           <span className="relative">
             <div className="absolute inset-0 bg-red-800 w-[95%] transform translate-x-2 -rotate-1 h-[120%]"></div>
             <span className="relative inset-0 text-gray-300">
               web development
             </span>
           </span>
-            {", "}
+          {", "}
           <span className="relative">
             <div className="absolute inset-0 bg-red-800 w-[90%] transform translate-x-2 rotate-1 h-[120%]"></div>
             <span className="relative inset-0 text-gray-300 uppercase">
               ai/ml
             </span>
           </span>{" "}
-          & {" "}
+          &{" "}
           <span className="relative">
-            <div className="absolute inset-0 bg-red-800 w-[90%] transform translate-x-2 -rotate-2 h-[120%]"></div>
+            <div className="absolute inset-0 bg-red-800 w-[94%] transform translate-x-2 -rotate-2 h-[120%]"></div>
             <span className="relative inset-0 text-gray-300">
-              automation
-            </span>.
+              workflow automation
+            </span>
+            .
           </span>
+          {/* <Highlight delay={0.15}>
+            <span className="uppercase">ai/ml</span>
+          </Highlight> */}
         </p>
-        {/* <div className="flex items-center justify-center my-10">
-              <Button_2>
-                <a
-                  href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  View Resume
-                </a>
-              </Button_2>
-            </div> */}
+        <div className="mt-20">
+          <a
+            href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button_2>View CV</Button_2>
+          </a>
+        </div>
         {/* Progress bar */}
         {/* <div className="absolute bottom-0 w-full">
             <div className="w-full h-1 rounded-full bg-gradient-to-r from-green-400 to-green-500">

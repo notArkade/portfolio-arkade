@@ -72,7 +72,8 @@ neon greens:
   .custom-cursor {
     width: 5px;
     height: 5px;
-    background-color: #22c55e;
+    /* background-color: #22c55e; */
+    background-color: #9f0712;
     border-radius: 50%;
     position: fixed;
     pointer-events: none;
@@ -97,7 +98,8 @@ neon greens:
   .custom-cursor.cursor-hover {
     width: 30px;
     height: 30px;
-    background-color: #22c55e;
+    /* background-color: #22c55e; */
+    background-color: #9f0712;
     opacity: 50%;
   }
 

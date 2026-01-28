@@ -29,7 +29,7 @@ const Projects = () => {
           </h1>
         </div>
 
-        <div className="">
+        <div>
           {projects.map((project) => (
             <a href={project.link} target="_blank" rel="noopener noreferrer">
               <div

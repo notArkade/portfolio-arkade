@@ -41,7 +41,7 @@ const Nav = () => {
         <ul className="nav-li group">
         <NavLink title="home" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="skills" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
-        <NavLink title="about" offset={-280} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
+        <NavLink title="about" offset={-200} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="projects" offset={-200} className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         <NavLink title="contact" className="peer opacity-100 group-hover:opacity-50 hover:opacity-100 transition-all duration-400" />
         </ul>

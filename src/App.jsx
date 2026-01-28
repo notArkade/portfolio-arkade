@@ -16,7 +16,7 @@ import ScrollRestoration from "./utils/ScrollRestoration";
 
 const Portfolio = () => {
   return (
-    <main id="scroll-container" className="scroll-hide">
+    <main id="scroll-container" className="scroll-hide cursor-default">
       <CustomCursor />
       <Header />
       <Home />
