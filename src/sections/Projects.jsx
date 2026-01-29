@@ -35,7 +35,7 @@ const Projects = () => {
               <div
                 key={project.id}
                 // onClick={() => navigate(`/projects/${project.id}`)}
-                className="font-mono border-[0.01px] border-gray-600 border-t-0 border-r-0 border-l-0 py-10 text-4xl group cursor-pointer"
+                className="font-mono border-[0.01px] border-gray-600 hover:text-[#7CFFB2] border-t-0 border-r-0 border-l-0 py-10 text-4xl group cursor-pointer"
               >
                 <h1 className="transition-transform duration-500 group-hover:translate-x-4">
                   {project.title}

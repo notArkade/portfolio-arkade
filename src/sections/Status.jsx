@@ -8,7 +8,6 @@ import HoverGrid from "../components/HoverGrid/HoverGrid";
 import { GrTechnology } from "react-icons/gr";
 import { AiFillApi } from "react-icons/ai";
 
-
 const Status = () => {
   return (
     <Element name="skills">
@@ -27,7 +26,8 @@ const Status = () => {
             tech stack
           </h4>
         </div>
-        <div className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
+        <div className="flex text-3xl font-bold p-2 w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto text-[#7CFFB2]">
+          {/* <p className="px-4">{"<"}</p> */}
           <Marquee>
             {techstack.map(({ id, Icon, tech }) => (
               <div key={id} className="px-4">
@@ -35,6 +35,7 @@ const Status = () => {
               </div>
             ))}
           </Marquee>
+          {/* <p className="px-4">{">"}</p> */}
         </div>
       </section>
     </Element>

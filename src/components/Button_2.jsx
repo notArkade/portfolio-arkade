@@ -8,7 +8,7 @@ const Button_2 = ({ href, onClick, children }) => {
   return href ? (
     <a
       href={href}
-      className="text-4xl space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md text-red-400 hover:text-gray-300  hover:bg-red-800"
+      className="text-4xl space-mono cursor-pointer uppercase p-2 border border-gray-700 rounded-md text-[#7CFFB2] hover:text-gray-300  hover:bg-red-800"
     >
       <span 
       // ref={headingRef} 
@@ -18,7 +18,7 @@ const Button_2 = ({ href, onClick, children }) => {
   ) : (
     <button
       onClick={onClick}
-      className="md:text-xl space-mono cursor-pointer p-4 border border-gray-700 rounded-xl text-red-800 hover:text-gray-300 hover:border-red-800 transition-all"
+      className="md:text-xl space-mono cursor-pointer p-4 border border-gray-700 rounded-md text-gray-300 hover:text-[#7CFFB2] hover:border-[#7CFFB2] transition-all"
     >
       <span 
       // ref={headingRef} 

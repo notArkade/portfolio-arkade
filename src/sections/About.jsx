@@ -185,31 +185,31 @@ const About = () => {
         <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug cursor-default">
           I'm a <span className="text-gray-300">software developer</span> aiming
           to combine creativity with technology to build{" "}
-          <span className="italic text-red-800">sleek</span>
+          <span className="text-[#7CFFB2] italic">sleek</span>
           {", "}
-          <span className="text-red-800">responsive</span>
+          <span className="text-[#7CFFB2] neon-flicker">responsive</span>
           {", "}
-          <span className="text-red-800">impactful</span> web experiences and
+          <span className="text-[#7CFFB2]">impactful</span> web experiences and
           intelligent solutions.
         </p>
         <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide leading-relaxed">
           CS major, i am currently learning <br />
           <span className="relative">
-            <div className="absolute inset-0 bg-red-800 w-[95%] transform translate-x-2 -rotate-1 h-[120%]"></div>
+            {/* <div className="absolute inset-0 bg-red-800 w-[95%] transform translate-x-2 -rotate-1 h-[120%]"></div> */}
             <span className="relative inset-0 text-gray-300">
               web development
             </span>
           </span>
           {", "}
           <span className="relative">
-            <div className="absolute inset-0 bg-red-800 w-[90%] transform translate-x-2 rotate-1 h-[120%]"></div>
+            {/* <div className="absolute inset-0 bg-red-800 w-[90%] transform translate-x-2 rotate-1 h-[120%]"></div> */}
             <span className="relative inset-0 text-gray-300 uppercase">
               ai/ml
             </span>
           </span>{" "}
           &{" "}
           <span className="relative">
-            <div className="absolute inset-0 bg-red-800 w-[94%] transform translate-x-2 -rotate-1 h-[120%]"></div>
+            {/* <div className="absolute inset-0 bg-red-800 w-[94%] transform translate-x-2 -rotate-1 h-[120%]"></div> */}
             <span className="relative inset-0 text-gray-300">
               workflow automation
             </span>

@@ -24,8 +24,8 @@ const Portfolio = () => {
         <CustomCursor />
         <Header />
         <Home />
-        <Status />
         <About />
+        <Status />
         <Projects />
         <What />
         <Contact />
