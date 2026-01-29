@@ -5,19 +5,28 @@ import { techstack } from "../constants";
 import { Tooltip } from "react-tooltip";
 import Marquee from "../components/MarqueeEffect/Marquee";
 import HoverGrid from "../components/HoverGrid/HoverGrid";
+import { GrTechnology } from "react-icons/gr";
+import { AiFillApi } from "react-icons/ai";
 
 
 const Status = () => {
   return (
-    <section className="relative min-h-screen bg-gradient-to-b from-black to-[#111111] flex flex-col justify-center items-center">
-              {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-[#111111] pointer-events-none" />
+    <Element name="skills">
+      <section className="container my-40">
+        {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-[#111111] pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-[#111111] pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-[#111111] pointer-events-none" /> */}
 
-
-      {/* <HoverGrid /> */}
-      <Element name="skills" className="container mx-auto p-10">
-        <h2 className="text-4xl text-center my-20 space-mono text-shadow-flicker animate-flicker">Tech Stack</h2>
+        {/* <HoverGrid /> */}
+        {/* <h2 className="text-4xl my-20 space-mono text-shadow-flicker animate-flicker">Tech Stack</h2> */}
+        <div className="flex gap-4 justify-items-center mb-10 text-gray-500">
+          {/* <MdAccountCircle size={28} /> */}
+          <GrTechnology size={28} />
+          {/* <AiFillApi size={28} /> */}
+          <h4 className="uppercase text-3xl md:text-xl mb-4 space-mono">
+            tech stack
+          </h4>
+        </div>
         <div className="w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
           <Marquee>
             {techstack.map(({ id, Icon, tech }) => (
@@ -27,8 +36,8 @@ const Status = () => {
             ))}
           </Marquee>
         </div>
-      </Element>
-    </section>
+      </section>
+    </Element>
   );
 };
 

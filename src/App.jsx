@@ -16,28 +16,33 @@ import ScrollRestoration from "./utils/ScrollRestoration";
 
 const Portfolio = () => {
   return (
-    <main id="scroll-container" className="scroll-hide cursor-default">
-      <CustomCursor />
-      <Header />
-      <Home />
-      <Status />
-      <About />
-      <Projects />
-      <What />
-      <Contact />
-      <Footer />
-    </main>
+    <>
+      {/* <div className="tv-frame" /> */}
+      <div className="glare" />
+      <div className="interlaced" />
+      <main id="scroll-container" className="scroll-hide cursor-default">
+        <CustomCursor />
+        <Header />
+        <Home />
+        <Status />
+        <About />
+        <Projects />
+        <What />
+        <Contact />
+        <Footer />
+      </main>
+    </>
   );
 };
 
 function App() {
   return (
     <>
-    <ScrollRestoration />
-    <Routes>
-      <Route path="/" element={<Portfolio />} />
-      <Route path="/projects/:projectId" element={<ProjectPage />} />
-    </Routes>
+      <ScrollRestoration />
+      <Routes>
+        <Route path="/" element={<Portfolio />} />
+        <Route path="/projects/:projectId" element={<ProjectPage />} />
+      </Routes>
     </>
   );
 }

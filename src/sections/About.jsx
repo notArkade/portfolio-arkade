@@ -187,7 +187,7 @@ const About = () => {
           to combine creativity with technology to build{" "}
           <span className="italic text-red-800">sleek</span>
           {", "}
-          <span className="hover:text-red-800">responsive</span>
+          <span className="text-red-800">responsive</span>
           {", "}
           <span className="text-red-800">impactful</span> web experiences and
           intelligent solutions.
@@ -209,7 +209,7 @@ const About = () => {
           </span>{" "}
           &{" "}
           <span className="relative">
-            <div className="absolute inset-0 bg-red-800 w-[94%] transform translate-x-2 -rotate-2 h-[120%]"></div>
+            <div className="absolute inset-0 bg-red-800 w-[94%] transform translate-x-2 -rotate-1 h-[120%]"></div>
             <span className="relative inset-0 text-gray-300">
               workflow automation
             </span>

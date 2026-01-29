@@ -20,20 +20,25 @@ neon blues:
 
 neon greens:
 #22c55e (34,197,94)
-
- [clip-path:polygon(0%_0%,100%_0%,100%_80%,90%_100%,0%_100%)]
 */
 
 @layer base {
   body {
-        /* background-color: #000; */
-    background: #111111;
+    /* background-color: #000; */
+    /* background: #111111; */
     /* background: #292929; */
     /* background: #09051e; */
     /* background: linear-gradient(#000, #24262f); */
     /* font-family: "Roboto Mono", sans-serif; */
     color: white;
     /* cursor: none; */
+    /* position: fixed; */
+    /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; */
+    z-index: -1; /* ensure the effect doesn't cover the text */
+    /* background: radial-gradient(hsl(154 5% 15%) 0%, hsl(154 50% 5%) 70%); */
   }
 
   html,
@@ -100,7 +105,7 @@ neon greens:
     height: 30px;
     /* background-color: #22c55e; */
     background-color: #9f0712;
-    opacity: 50%;
+    opacity: 70%;
   }
 
   /* Hide the trailing cursor when hovering */
@@ -115,6 +120,112 @@ neon greens:
 }
 
 @layer utilities {
+  .tv-frame {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 100;
+
+    border: 32px solid #0b0f0c;
+    border-radius: 28px;
+
+    box-shadow:
+      inset 0 0 40px rgba(0, 0, 0, 0.9),
+      inset 0 0 120px rgba(0, 0, 0, 0.8),
+      0 0 60px rgba(0, 0, 0, 0.9);
+  }
+
+  .tv-frame::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    border-radius: 24px;
+    box-shadow:
+      inset 0 0 120px rgba(255, 255, 255, 0.04),
+      inset 0 0 240px rgba(0, 0, 0, 0.6);
+  }
+
+  .tv-frame::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 24px;
+    background: radial-gradient(transparent 60%, rgba(0, 0, 0, 0.6) 100%);
+  }
+
+  .glare {
+    position: fixed;
+    inset: 0;
+    z-index: -10;
+    background: radial-gradient(hsl(154 5% 15%) 0%, hsl(154 50% 5%) 70%);
+  }
+
+  /* ===== Interlaced CRT lines ===== */
+  @keyframes lines {
+    0% {
+      background-position: 0px 0px;
+    }
+    50% {
+      background-position: 0px 0px;
+    }
+    51% {
+      background-position: 0px 2px;
+    }
+    100% {
+      background-position: 0px 2px;
+    }
+  }
+
+  .interlaced {
+    position: fixed;
+    inset: 0;
+    z-index: 50;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+      transparent 0px 1px,
+      hsl(154 0% 0% / 0.3) 5px 8px
+    );
+    animation: lines 0.066666666s linear infinite;
+  }
+
+  /* ===== Blinking cursor ===== */
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    30% {
+      opacity: 1;
+    }
+    70% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .blink {
+    animation: blink 0.4s linear infinite;
+  }
+
+  @keyframes neonFlicker {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    98% {
+      opacity: 0.95;
+    }
+    99% {
+      opacity: 0.6;
+    }
+  }
+
+  .neon-flicker {
+    animation: neonFlicker 4s infinite;
+  }
+
   .bod {
     @apply border-2 border-amber-400;
   }
@@ -142,7 +253,10 @@ neon greens:
   }
 
   .text-shadow-flicker {
-    text-shadow: 0 0 10px #000, 0 0 5px #fff, 0 0 40px #fff;
+    text-shadow:
+      0 0 10px #000,
+      0 0 5px #fff,
+      0 0 40px #fff;
   }
 
   .hex {
@@ -167,7 +281,10 @@ neon greens:
   }
 
   .glow-text:hover {
-    text-shadow: 0 0 10px #fff, 0 0 20px #00ffdf, 0 0 30px #ffffff;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 20px #00ffdf,
+      0 0 30px #ffffff;
   }
 
   .retro {
@@ -194,7 +311,7 @@ neon greens:
     @apply mx-auto;
   }
   .container-home {
-    @apply h-[40vh] min-w-screen px-20 my-30;
+    @apply min-w-screen mt-20;
   }
 
   .nav-li {
