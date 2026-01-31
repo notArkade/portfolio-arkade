@@ -11,7 +11,7 @@ const Nav = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setHasScrolled(window.scrollY > 120);
+      setHasScrolled(window.scrollY > 150);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -33,7 +33,7 @@ const Nav = () => {
   return (
     <header
       className={clsx(
-        "fixed top-0 left-0 z-50 w-full transition-all duration-700 select-none",
+        "fixed top-0 left-0 z-50 w-full transition-all duration-900 select-none",
         hasScrolled && "bg-black/80 backdrop-blur-[20px]"
       )}
     >

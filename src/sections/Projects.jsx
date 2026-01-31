@@ -7,6 +7,7 @@ import {
   BsArrowRightCircleFill,
   BsArrowUpRightCircleFill,
 } from "react-icons/bs";
+import { IoMdArrowDropright } from "react-icons/io";
 
 import { useNavigate } from "react-router-dom";
 
@@ -35,9 +36,14 @@ const Projects = () => {
               <div
                 key={project.id}
                 // onClick={() => navigate(`/projects/${project.id}`)}
-                className="font-mono border-[0.01px] border-gray-600 hover:text-[#7CFFB2] border-t-0 border-r-0 border-l-0 py-10 text-4xl group cursor-pointer"
+                className="font-mono flex items-center border-[0.01px] border-gray-600 hover:text-[#7CFFB2] border-t-0 border-r-0 border-l-0 py-10 text-4xl group cursor-default"
               >
-                <h1 className="transition-transform duration-500 group-hover:translate-x-4">
+                <IoMdArrowDropright
+                  className="text-[#7CFFB2] -translate-x-2 opacity-0 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-1"
+                  size={32}
+                />
+
+                <h1 className="transition-transform duration-300 -translate-x-6 group-hover:translate-x-1">
                   {project.title}
                 </h1>
               </div>
