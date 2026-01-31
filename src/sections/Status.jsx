@@ -11,7 +11,7 @@ import { AiFillApi } from "react-icons/ai";
 const Status = () => {
   return (
     <Element name="skills">
-      <section className="container my-40">
+      <section className="container my-40 max-md:px-8">
         {/* <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-[#111111] pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-[#111111] pointer-events-none" />
               <div className="absolute inset-0 bg-gradient-to-l from-black via-transparent to-[#111111] pointer-events-none" /> */}
@@ -26,7 +26,7 @@ const Status = () => {
             tech stack
           </h4>
         </div>
-        <div className="flex text-3xl font-bold p-2 w-full max-w-[90%] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto text-[#7CFFB2]">
+        <div className="flex text-3xl font-bold w-full mx-auto items-center justify-center text-[#7CFFB2]">
           {/* <p className="px-4">{"<"}</p> */}
           <Marquee>
             {techstack.map(({ id, Icon, tech }) => (

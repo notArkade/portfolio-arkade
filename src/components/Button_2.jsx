@@ -18,7 +18,7 @@ const Button_2 = ({ href, onClick, children }) => {
   ) : (
     <button
       onClick={onClick}
-      className="md:text-xl space-mono cursor-pointer p-4 border border-gray-700 rounded-md text-gray-300 hover:text-[#7CFFB2] hover:border-[#7CFFB2] transition-all"
+      className="md:text-xl space-mono cursor-pointer p-4 border border-gray-700 rounded-md text-gray-300 hover:text-[#7CFFB2] hover:border-[#7CFFB2] transition-all max-xl:w-full"
     >
       <span 
       // ref={headingRef} 

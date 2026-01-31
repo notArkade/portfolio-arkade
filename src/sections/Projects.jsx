@@ -19,8 +19,8 @@ const Projects = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="min-h-screen container mb-40">
-      <Element name="projects">
+    <Element name="projects">
+      <section className="min-h-screen container mb-40 max-md:px-8">
         {/* Header */}
         <div className="flex gap-4 justify-items-center mb-10 text-gray-500">
           <BsArrowUpRightCircleFill size={28} />
@@ -44,8 +44,8 @@ const Projects = () => {
             </a>
           ))}
         </div>
-      </Element>
-    </section>
+      </section>
+    </Element>
   );
 };
 

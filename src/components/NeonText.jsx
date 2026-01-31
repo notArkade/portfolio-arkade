@@ -1,8 +1,8 @@
 const NeonText = ({ text }) => {
   return (
     <svg
-      viewBox="0 0 1500 600"
-      className="w-full md:max-w-7xl max-w-auto mx-auto"
+      viewBox="0 0 1500 420"
+      className="w-full max-w-[90vw] sm:max-w-[80vw] md:max-w-7xl mx-auto"
     >
       <defs>
         {/* Glow */}
@@ -25,7 +25,7 @@ const NeonText = ({ text }) => {
         strokeWidth="4"
         strokeDasharray="80 12"
         filter="url(#glow)"
-        className="font-mono text-[300px] neon-flicker uppercase tracking-[0.2em]"
+        className="font-mono text-[300px] neon-flicker uppercase tracking-[0.2em] select-none"
       >
         {text}
       </text>

@@ -7,9 +7,9 @@ const Footer = () => {
     <Element name="contact">
       <footer>
         <div>
-          <ul className="flex flex-1 items-center px-40 justify-between mx-auto py-20 bg-black z-2 space-mono ">
+          <ul className="flex flex-1 max-lg:flex-col max-lg:gap-20 max-lg:justify-center max-lg:text-center items-center px-40 justify-between mx-auto py-20 bg-black z-2 space-mono">
             <a href="mailto:arkadip671@gmail.com">
-              <li className="text-4xl uppercase border-b-0 border-l-2 text-gray-500 hover:text-gray-100 p-4 neon-flicker">
+              <li className="text-4xl uppercase border-l-2 text-gray-500 max-lg:border-2 max-md:text-2xl hover:text-gray-100 p-4 neon-flicker">
                 Let's create together
               </li>
             </a>

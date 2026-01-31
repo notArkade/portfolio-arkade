@@ -174,7 +174,7 @@ const About = () => {
   return (
     <Element name="about">
       {/* Make this section extra tall to allow scrolling */}
-      <section ref={targetRef} className="container my-40">
+      <section ref={targetRef} className="container my-40 max-md:px-8">
         {/* Sticky container */}
         <div className="flex gap-4 justify-items-center mb-10 text-gray-500">
           <MdAccountCircle size={28} />
@@ -182,7 +182,7 @@ const About = () => {
             About Me
           </h4>
         </div>
-        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug cursor-default">
+        <p className="lg:text-5xl md:text-4xl text-2xl text-gray-600 inter font-bold tracking-wide mb-4 leading-snug cursor-default">
           I'm a <span className="text-gray-300">software developer</span> aiming
           to combine creativity with technology to build{" "}
           <span className="text-[#7CFFB2] italic">sleek</span>
@@ -192,7 +192,7 @@ const About = () => {
           <span className="text-[#7CFFB2]">impactful</span> web experiences and
           intelligent solutions.
         </p>
-        <p className="md:text-5xl text-gray-600 inter font-bold tracking-wide leading-relaxed">
+        <p className="lg:text-5xl md:text-4xl text-2xl max-md:mt-10 text-gray-600 inter font-bold tracking-wide leading-relaxed">
           CS major, i am currently learning <br />
           <span className="relative">
             {/* <div className="absolute inset-0 bg-red-800 w-[95%] transform translate-x-2 -rotate-1 h-[120%]"></div> */}
