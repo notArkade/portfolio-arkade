@@ -120,6 +120,27 @@ neon greens:
 }
 
 @layer utilities {
+  /* ===== Loader Fade In / Fade Out ===== */
+
+  @keyframes loaderFade {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    80% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  .loader-fade {
+    animation: loaderFade 5s ease-in-out forwards;
+  }
+
   .ambient {
     position: absolute;
     inset: 0;
@@ -336,6 +357,65 @@ neon greens:
   .nav-li {
     @apply flex items-center justify-center w-full px-10 space-x-10;
   }
+
+  .camera-hud {
+  position: fixed;
+  inset: 0;
+  z-index: 5; /* BELOW interlaced, ABOVE glare */
+  pointer-events: none;
+
+  font-family: monospace;
+  color: rgba(200, 255, 220, 0.75);
+  text-shadow: 0 0 6px rgba(120, 255, 180, 0.3);
+}
+
+/* ---- Positions ---- */
+.hud-top-left {
+  position: absolute;
+  top: 16px;
+  left: 20px;
+  /* display: flex;
+  align-items: center; */
+  gap: 8px;
+  font-size: 14px;
+}
+
+.hud-top-right {
+  position: absolute;
+  top: 16px;
+  right: 20px;
+  font-size: 14px;
+}
+
+.hud-bottom-left {
+  position: absolute;
+  bottom: 18px;
+  left: 20px;
+  font-size: 13px;
+}
+
+.hud-bottom-right {
+  position: absolute;
+  bottom: 18px;
+  right: 20px;
+  font-size: 15px;
+}
+
+/* ---- REC dot ---- */
+.rec-dot {
+  width: 8px;
+  height: 8px;
+  background: red;
+  border-radius: 50%;
+  box-shadow: 0 0 6px red;
+  animation: recBlink 2s infinite;
+}
+
+@keyframes recBlink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
 }
 
 /* @utility hide-scrollbar {

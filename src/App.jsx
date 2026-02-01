@@ -13,12 +13,15 @@ import ProjectPage from "./sections/ProjectPage";
 import { Routes, Route } from "react-router-dom";
 
 import ScrollRestoration from "./utils/ScrollRestoration";
+import CameraHUD from "./components/CameraHUD";
 
 const Portfolio = () => {
   return (
     <>
       {/* <div className="tv-frame" /> */}
       <div className="glare" />
+            <CameraHUD />
+
       <div className="interlaced" />
       <main id="scroll-container" className="scroll-hide cursor-default">
         <CustomCursor />

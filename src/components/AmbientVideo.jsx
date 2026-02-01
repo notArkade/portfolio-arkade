@@ -1,19 +1,30 @@
-import React from "react";
-import crt from "../assets/giphy.gif";
+import React, { useEffect, useState } from "react";
+import dvd from "../assets/dvd.gif";
 
 const AmbientVideo = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setVisible(v => !v);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <img
-      src={crt}
+      src={dvd}
       alt="CRT ambient"
-      className="
+      className={`
         absolute inset-0
         w-full h-full
         object-cover
-        opacity-5
         pointer-events-none
         z-0
-      "
+        transition-opacity duration-[2500ms] ease-in-out
+        ${visible ? "opacity-10" : "opacity-0"}
+      `}
     />
   );
 };
