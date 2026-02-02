@@ -74,10 +74,9 @@ neon greens:
     -webkit-overflow-scrolling: touch;
   }
 
-  .custom-cursor {
+  /* .custom-cursor {
     width: 5px;
     height: 5px;
-    /* background-color: #22c55e; */
     background-color: #7cffb2;
     border-radius: 50%;
     position: fixed;
@@ -85,7 +84,7 @@ neon greens:
     transform: translate(-50%, -50%);
     transition: transform 0.05s ease-out;
     z-index: 1;
-  }
+  } */
 
   /* .cursor-trail {
     width: 30px;
@@ -100,13 +99,12 @@ neon greens:
   } */
 
   /* Cursor expands when hovering over buttons or links */
-  .custom-cursor.cursor-hover {
+  /* .custom-cursor.cursor-hover {
     width: 30px;
     height: 30px;
-    /* background-color: #22c55e; */
     background-color: #7cffb2;
     opacity: 70%;
-  }
+  } */
 
   /* Hide the trailing cursor when hovering */
   .cursor-trail.hidden {

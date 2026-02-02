@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <Element name="home">
         <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-          {/* <AmbientVideo /> */}
+          <AmbientVideo />
 
           {/* WIDTH ANCHOR (this fixes the SVG scaling issue) */}
           <div className="w-full max-w-7xl mx-auto px-4">

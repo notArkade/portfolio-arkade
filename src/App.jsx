@@ -31,7 +31,7 @@ const Portfolio = () => {
         <Status />
         <Projects />
         <What />
-        <Contact />
+        {/* <Contact /> */}
         <Footer />
       </main>
     </>
