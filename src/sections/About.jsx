@@ -142,6 +142,7 @@ import {
   useMotionValueEvent,
 } from "framer-motion";
 import Button_2 from "../components/Button_2";
+import Button_4 from "../components/Button_4";
 import { MdAccountCircle } from "react-icons/md";
 import Highlight from "../components/Highlight";
 
@@ -220,13 +221,22 @@ const About = () => {
           </Highlight> */}
         </p>
         <div className="mt-20">
-          <a
-            href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Button_2>View CV</Button_2>
-          </a>
+          <div className="flex gap-4">
+            <a
+              href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button_2>View CV</Button_2>
+            </a>
+            <a
+              href="https://www.figma.com/design/OeIAF785SJh33QaY318Yqb/Untitled?node-id=0-1&p=f&t=SFumMEVUNOS0Tnvs-0"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button_4>View DESIGN PORTFOLIO</Button_4>
+            </a>
+          </div>
         </div>
         {/* Progress bar */}
         {/* <div className="absolute bottom-0 w-full">
