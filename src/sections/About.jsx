@@ -221,7 +221,7 @@ const About = () => {
           </Highlight> */}
         </p>
         <div className="mt-20">
-          <div className="flex gap-4">
+          <div className="flex gap-4 sm:flex-row flex-col">
             <a
               href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
               target="_blank"
