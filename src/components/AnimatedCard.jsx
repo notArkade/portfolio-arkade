@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
-import useHoverTextEffect from "../text-animation";
 import Button from "./Button";
 
 const AnimatedCard = () => {

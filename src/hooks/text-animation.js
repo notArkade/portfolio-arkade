@@ -2,7 +2,7 @@ import { useEffect, useRef } from "react";
 
 const useHoverTextEffect = () => {
   const ref = useRef(null);
-  const letters = "ABCDEFGHIJKLM1234567890NOPQRSTUVWXYZ";
+  const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   useEffect(() => {
     const element = ref.current;

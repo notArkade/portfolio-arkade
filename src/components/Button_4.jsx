@@ -1,9 +1,7 @@
 
 import React from "react";
-import useHoverTextEffect from "../text-animation";
 
 const Button_4 = ({ href, onClick, children }) => {
-  const headingRef = useHoverTextEffect();
 
   return href ? (
     <a
