@@ -223,7 +223,7 @@ const About = () => {
         <div className="mt-20">
           <div className="flex gap-4 sm:flex-row flex-col">
             <a
-              href="https://drive.google.com/file/d/1FSqjmsP0kD-_F9cK2OOFUWW_zrn6psN0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1yzLHRYq-s8hiZpj9vrBFVqxdJ0rfEfLR/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
