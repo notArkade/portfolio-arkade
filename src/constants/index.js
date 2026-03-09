@@ -148,4 +148,12 @@ export const projects = [
     description: "A Pokédex featuring Pokémon",
     link: "/",    
   },
+  {
+    id: "8",
+    title: "Autobahn",
+    techstack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "SQLite"],
+    image: VscBlank,
+    description: "A full-stack automobile repair shop management app with AI-assisted service estimation, work order tracking, and invoice generation.",
+    link: "https://autobahn-enterprices-9yk6.vercel.app/",    
+  },
 ];
