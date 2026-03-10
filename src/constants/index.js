@@ -84,14 +84,6 @@ export const socials = [
 
 export const projects = [
   {
-    id: "0",
-    title: "Curiko",
-    techstack: ["Next.js", "Tailwind CSS", "Gemini AI"],
-    image: curiko,
-    description: "Your personal AI-powered mental health companion.",
-    link: "https://curiko.vercel.app/",    
-  },
-  {
     id: "1",
     title: "Bloomify",
     techstack: ["React.js", "Tailwind CSS"],
@@ -124,6 +116,14 @@ export const projects = [
     link: "https://sentinel-pearl.vercel.app/",    
   },
   {
+    id: "6",
+    title: "The Nike Website",
+    techstack: ["React.js", "Tailwind CSS"],
+    image: nike,
+    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
+    link: "https://la-nike-sitio-web.vercel.app/",    
+  },
+  {
     id: "5",
     title: "Festment",
     techstack: ["HTML", "Tailwind CSS"],
@@ -133,12 +133,12 @@ export const projects = [
     link: "https://notarkade.github.io/FestMent/",      
   },
   {
-    id: "6",
-    title: "The Nike Website",
-    techstack: ["React.js", "Tailwind CSS"],
-    image: nike,
-    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "https://la-nike-sitio-web.vercel.app/",    
+    id: "0",
+    title: "Curiko",
+    techstack: ["Next.js", "Tailwind CSS", "Gemini AI"],
+    image: curiko,
+    description: "Your personal AI-powered mental health companion.",
+    link: "https://curiko.vercel.app/",    
   },
   {
     id: "7",
