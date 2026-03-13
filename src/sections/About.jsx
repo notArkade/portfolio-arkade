@@ -53,7 +53,7 @@ const About = () => {
 
         <div className="mt-20">
           <div className="flex gap-4 sm:flex-row flex-col">
-            <a href="https://drive.google.com/file/d/1yzLHRYq-s8hiZpj9vrBFVqxdJ0rfEfLR/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1dqWXwhtZMackOgwIRMWxdqQ3iMt989Wl/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <Button_2>View CV</Button_2>
             </a>
             <a href="https://www.figma.com/design/OeIAF785SJh33QaY318Yqb/Untitled?node-id=0-1&p=f&t=SFumMEVUNOS0Tnvs-0" target="_blank" rel="noopener noreferrer">
