@@ -7,7 +7,6 @@ import {
   FaJs,
   FaNodeJs,
   FaBootstrap,
-
 } from "react-icons/fa";
 import { SiPandas } from "react-icons/si";
 import { SiMysql } from "react-icons/si";
@@ -88,40 +87,45 @@ export const projects = [
     title: "Bloomify",
     techstack: ["React.js", "Tailwind CSS"],
     image: bloomify,
-    description: "Bloomify is your go-to platform for effortless and delightful flower buying and selling. Whether you want to brighten someone's day or expand your floral business, we make it simple and seamless.",
-    link: "https://bloomify-lac.vercel.app/",    
+    description:
+      "Bloomify is your go-to platform for effortless and delightful flower buying and selling. Whether you want to brighten someone's day or expand your floral business, we make it simple and seamless.",
+    link: "https://bloomify-lac.vercel.app/",
   },
   {
     id: "2",
     title: "XORA",
     techstack: ["React.js", "Tailwind CSS"],
     image: xora,
-    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "https://xora-bay.vercel.app/",    
+    description:
+      "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
+    link: "https://xora-bay.vercel.app/",
   },
   {
     id: "3",
     title: "The Movie Project",
     techstack: ["React.js", "Tailwind CSS", "Appwrite"],
     image: movie,
-    description: "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending movies effortlessly.",
-    link: "https://notarkade.github.io/TheMovieProject/",    
+    description:
+      "A sleek and responsive movie search webpage built with React.js and Tailwind CSS. It fetches real-time data using APIs to display the latest trending and top-searched movies. Users can explore trending movies effortlessly.",
+    link: "https://notarkade.github.io/TheMovieProject/",
   },
   {
     id: "4",
     title: "Sentinel",
     techstack: ["React.js", "Tailwind CSS", "Python"],
     image: sentinel,
-    description: "A Machine Learning-Based NIDS for Cybersecurity Threat Detection.",
-    link: "https://sentinel-pearl.vercel.app/",    
+    description:
+      "A Machine Learning-Based NIDS for Cybersecurity Threat Detection.",
+    link: "https://sentinel-pearl.vercel.app/",
   },
   {
     id: "6",
     title: "The Nike Website",
     techstack: ["React.js", "Tailwind CSS"],
     image: nike,
-    description: "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
-    link: "https://la-nike-sitio-web.vercel.app/",    
+    description:
+      "A visually stunning frontend replica of the Nike website, built using React.js and Tailwind CSS. Designed for a seamless and responsive user experience, it showcases product listings, and modern UI elements, offering an authentic feel of the original site.",
+    link: "https://la-nike-sitio-web.vercel.app/",
   },
   {
     id: "5",
@@ -129,8 +133,8 @@ export const projects = [
     techstack: ["HTML", "Tailwind CSS"],
     image: festment,
     description:
-    "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
-    link: "https://notarkade.github.io/FestMent/",      
+      "FestMent is an innovative online platform designed to enhance the college experience by providing students with easy access to a wide range of events happening in and around their campuses.",
+    link: "https://notarkade.github.io/FestMent/",
   },
   {
     id: "0",
@@ -138,7 +142,16 @@ export const projects = [
     techstack: ["Next.js", "Tailwind CSS", "Gemini AI"],
     image: curiko,
     description: "Your personal AI-powered mental health companion.",
-    link: "https://curiko.vercel.app/",    
+    link: "https://curiko.vercel.app/",
+  },
+  {
+    id: "9",
+    title: "Re: Write",
+    techstack: ["Next.js", "Tailwind CSS", "Gemini API", "Clerk", "Supabase"],
+    image: VscBlank,
+    description:
+      "Re: Write is a web application that converts a single piece of content into multiple platform-specific formats automatically using AI.",
+    link: "https://re-write-lyart.vercel.app/",
   },
   {
     id: "7",
@@ -146,14 +159,15 @@ export const projects = [
     techstack: ["React.js", "Tailwind CSS", "PokeAPI"],
     image: pokemon,
     description: "A Pokédex featuring Pokémon",
-    link: "/",    
+    link: "/",
   },
   {
     id: "8",
     title: "Autobahn",
     techstack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "SQLite"],
     image: VscBlank,
-    description: "A full-stack automobile repair shop management app with AI-assisted service estimation, work order tracking, and invoice generation.",
-    link: "https://autobahn-enterprices-9yk6.vercel.app/",    
+    description:
+      "A full-stack automobile repair shop management app with AI-assisted service estimation, work order tracking, and invoice generation.",
+    link: "https://autobahn-enterprices-9yk6.vercel.app/",
   },
 ];

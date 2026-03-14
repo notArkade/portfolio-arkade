@@ -8,6 +8,8 @@ const OpenToWork = () => {
           <div className="flex items-center justify-center text-[#7CFFB2] font-bold space-mono">
             <p className="lg:text-4xl md:text-2xl text-xl px-10">&#9679;</p>
             <p className="lg:text-6xl md:text-5xl text-2xl">Open to work</p>
+            <p className="lg:text-4xl md:text-2xl text-xl px-10">&#9679;</p>
+            <p className="lg:text-6xl md:text-5xl text-2xl">Open to work</p>
           </div>
         </Marquee>
       </div>
