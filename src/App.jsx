@@ -9,6 +9,7 @@ import Status from "./sections/Status";
 import CustomCursor from "./sections/CustomCursor";
 import What from "./sections/What";
 import ProjectPage from "./sections/ProjectPage";
+import OpenToWork from "./sections/OpenToWork";
 
 import { Routes, Route } from "react-router-dom";
 
@@ -32,6 +33,7 @@ const Portfolio = () => {
         <Projects />
         <What />
         {/* <Contact /> */}
+        <OpenToWork />
         <Footer />
       </main>
     </>

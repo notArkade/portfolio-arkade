@@ -1,5 +1,6 @@
 import { useState } from "react";
 import monkey from "../assets/monkey-calling.gif";
+import Marquee from "../components/MarqueeEffect/Marquee";
 
 const What = () => {
   const [hovered, setHovered] = useState(false);
@@ -32,10 +33,10 @@ const What = () => {
         "
         />
       </div>
-      <div className="grid grid-cols-2 text-center text-gray-400 font-bold">
+      {/* <div className="grid grid-cols-2 text-center text-gray-400 font-bold">
         <p className="text-9xl tracking-[-1.2rem]">WO</p>
         <p className="text-9xl tracking-[-1.2rem]">RK</p>
-      </div>
+      </div> */}
     </>
   );
 };
