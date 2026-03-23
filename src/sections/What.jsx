@@ -45,15 +45,15 @@ const What = () => {
         <p className="text-9xl tracking-[-1.2rem]">RK</p>
       </div> */}
 
-      <div>
+      <div className="mb-20">
         <AsciiMotionAnimation
           showControls={false}
           autoPlay={true}
           onReady={handleReady}
         />
-        <button onClick={() => playbackRef.current?.play()}>
+        {/* <button onClick={() => playbackRef.current?.play()}>
           Play from code
-        </button>
+        </button> */}
       </div>
     </>
   );
