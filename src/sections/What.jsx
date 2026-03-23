@@ -1,9 +1,16 @@
 import { useState } from "react";
 import monkey from "../assets/monkey-calling.gif";
 import Marquee from "../components/MarqueeEffect/Marquee";
+import AsciiMotionAnimation from "../components/ascii-motion";
+import { useCallback, useRef } from "react";
 
 const What = () => {
   const [hovered, setHovered] = useState(false);
+
+  const playbackRef = useRef(null);
+  const handleReady = useCallback((api) => {
+    playbackRef.current = api;
+  }, []);
 
   return (
     <>
@@ -37,6 +44,17 @@ const What = () => {
         <p className="text-9xl tracking-[-1.2rem]">WO</p>
         <p className="text-9xl tracking-[-1.2rem]">RK</p>
       </div> */}
+
+      <div>
+        <AsciiMotionAnimation
+          showControls={false}
+          autoPlay={true}
+          onReady={handleReady}
+        />
+        <button onClick={() => playbackRef.current?.play()}>
+          Play from code
+        </button>
+      </div>
     </>
   );
 };
