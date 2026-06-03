@@ -139,7 +139,7 @@ export const projects = [
   {
     id: "0",
     title: "Curiko",
-    techstack: ["Next.js", "Tailwind CSS", "Gemini AI"],
+    techstack: ["Next.js", "Tailwind CSS", "Gemini AI", "Supabase", "Clerk", "Three.js"],
     image: curiko,
     description: "Your personal AI-powered mental health companion.",
     link: "https://curiko.vercel.app/",
