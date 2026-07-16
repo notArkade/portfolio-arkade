@@ -139,7 +139,14 @@ export const projects = [
   {
     id: "0",
     title: "Curiko",
-    techstack: ["Next.js", "Tailwind CSS", "Gemini AI", "Supabase", "Clerk", "Three.js"],
+    techstack: [
+      "Next.js",
+      "Tailwind CSS",
+      "Gemini AI",
+      "Supabase",
+      "Clerk",
+      "Three.js",
+    ],
     image: curiko,
     description: "Your personal AI-powered mental health companion.",
     link: "https://curiko.vercel.app/",
@@ -162,12 +169,19 @@ export const projects = [
     link: "/",
   },
   {
-    id: "8",
-    title: "Autobahn",
-    techstack: ["React.js", "Tailwind CSS", "Node.js", "Express.js", "SQLite"],
+    id: "9",
+    title: "HR Policy Assistant",
+    techstack: [
+      "React.js",
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "ChromaDB",
+      "Supabase",
+    ],
     image: VscBlank,
     description:
-      "A full-stack automobile repair shop management app with AI-assisted service estimation, work order tracking, and invoice generation.",
-    link: "https://autobahn-enterprices-9yk6.vercel.app/",
+      "A RAG-powered HR policy chatbot with semantic search, secure document management, and citation-backed answers from enterprise policy documents.",
+    link: "https://policy-itbgoc7a8-notarkades-projects.vercel.app/",
   },
 ];
