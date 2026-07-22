@@ -83,6 +83,22 @@ export const socials = [
 
 export const projects = [
   {
+    id: "9",
+    title: "HR Policy Assistant",
+    techstack: [
+      "React.js",
+      "Python",
+      "FastAPI",
+      "LangChain",
+      "ChromaDB",
+      "Supabase",
+    ],
+    image: VscBlank,
+    description:
+      "A RAG-powered HR policy chatbot with semantic search, secure document management, and citation-backed answers from enterprise policy documents.",
+    link: "https://policy-ai-sandy.vercel.app/",
+  },
+  {
     id: "1",
     title: "Bloomify",
     techstack: ["React.js", "Tailwind CSS"],
@@ -168,20 +184,5 @@ export const projects = [
     description: "A Pokédex featuring Pokémon",
     link: "/",
   },
-  {
-    id: "9",
-    title: "HR Policy Assistant",
-    techstack: [
-      "React.js",
-      "Python",
-      "FastAPI",
-      "LangChain",
-      "ChromaDB",
-      "Supabase",
-    ],
-    image: VscBlank,
-    description:
-      "A RAG-powered HR policy chatbot with semantic search, secure document management, and citation-backed answers from enterprise policy documents.",
-    link: "https://policy-itbgoc7a8-notarkades-projects.vercel.app/",
-  },
+  
 ];
